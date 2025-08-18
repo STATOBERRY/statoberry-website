@@ -1,0 +1,62 @@
+:root{
+  --brand: #634360;        /* primary purple */
+  --brand-600: #563a53;
+  --brand-100: #f0ddef;    /* soft lilac for tints */
+  --text: #0f172a;
+  --muted: #6b7280;
+  --radius: 16px;
+  --shadow: 0 12px 30px rgba(0,0,0,.10);
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+}
+
+/* headings use Outfit for a Posit-like tone */
+h1, h2, .display, .hero-title {
+  font-family: Outfit, Inter, system-ui, sans-serif;
+  letter-spacing: .2px;
+}
+
+/* navbar polish */
+.navbar {
+  backdrop-filter: saturate(140%) blur(6px);
+  box-shadow: 0 2px 20px rgba(0,0,0,.06);
+}
+.navbar-brand img { height: 28px; }
+
+/* hero */
+.hero {
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  background: radial-gradient(1200px 600px at 80% -10%, var(--brand-100), transparent 60%),
+              linear-gradient(180deg, #ffffff, #faf7fb 60%, #ffffff);
+  padding: clamp(28px, 6vw, 64px);
+  margin: 12px auto 28px;
+}
+.hero .btn { border-radius: 999px; padding: 12px 18px; }
+
+/* cards */
+.sb-card {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(99,67,96,.08);
+}
+
+/* links and accents */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* footer icons spacing */
+.nav-footer .bi { margin: 0 .25rem; }
+
+/* callouts */
+.callout-note, .callout-important {
+  border-radius: var(--radius);
+}
+
+/* code blocks rounded */
+pre, code { border-radius: 10px !important; }
+
+/* dark-mode tweaks handled via theme-dark.scss */

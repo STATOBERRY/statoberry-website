@@ -1,0 +1,8 @@
+title-block-style: none
+pagetitle: "Statoberry"
+description: "Tools for modern research and teaching"
+image: www/social-card.png
+twitter-card:
+  card: summary_large_image
+open-graph: true
+sitemap: true

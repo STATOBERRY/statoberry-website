@@ -1,0 +1,14 @@
+/* light theme overrides */
+$primary: #634360;
+$secondary: #7a5a77;
+$info: #6b8afd;
+$success: #17b890;
+$warning: #ffb020;
+$danger: #ef4444;
+$body-color: #0f172a;
+$link-color: $primary;
+$btn-border-radius: 999px;
+$card-border-radius: 16px;
+$enable-rounded: true;
+
+@import "bootstrap/scss/bootstrap";

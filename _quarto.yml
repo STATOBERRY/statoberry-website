@@ -1,0 +1,87 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "*.png"
+    - "*.jpeg"
+    - "*.svg"
+    - "*.pdf"
+    - CNAME
+
+website:
+  site-url: https://www.statoberry.com
+  favicon: www/logo.webp
+  navbar:
+    background: "#efcef5"
+    logo: www/statologo.webp
+    logo-alt: "Statoberry"
+    pinned: true
+    collapse-below: lg
+    right:
+      - icon: telephone
+        href: contact.qmd
+        aria-label: "Contact"
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Services
+        href: index.qmd#product
+    search: true
+
+  page-footer:
+    left: |
+      © 2025 RAISINS by <a href="https://www.statoberry.com/">Statoberry LLP</a><br>
+      <img src="www/statologo.webp" alt="Statoberry Logo" style="height:25px; padding: 5px 10px 5px 10px; margin-bottom: 5px;">
+    center:
+      - icon: youtube
+        href: https://www.youtube.com/@statoberry
+      - icon: facebook
+        href: https://facebook.com/statoberry
+      - icon: twitter
+        href: https://twitter.com/statoberry
+      - icon: linkedin
+        href: https://linkedin.com/company/statoberry
+      - icon: instagram
+        href: https://instagram.com/statoberry
+    background: "#f0ddef"
+
+  # optional: announcement bar for launches/workshops
+  # announcement:
+  #   icon: megaphone
+  #   content: "New: RAISINS preview access is live. Try it now →"
+  #   type: primary
+  #   dismissable: true
+
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+      dark:
+        - slate
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    page-navigation: true
+    smooth-scroll: true
+    code-tools: false
+    page-layout: full
+    lightbox: true
+    anchor-sections: true
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+
+execute:
+  freeze: auto
+  echo: false
+
+editor: visual
+
+quartodoc:
+  style: default
+
+metadata-files:
+  - _meta.yml

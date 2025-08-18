@@ -1,0 +1,11 @@
+/* dark theme overrides */
+$primary: #c6a8c2;  // lighter purple in dark mode
+$body-bg: #0b0b10;
+$body-color: #e7e8ea;
+$link-color: #d7c1d3;
+$card-bg: #14161a;
+$card-border-color: rgba(255,255,255,.06);
+$btn-border-radius: 999px;
+$card-border-radius: 16px;
+
+@import "bootstrap/scss/bootstrap";
