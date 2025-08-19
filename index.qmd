@@ -15,16 +15,16 @@ toc: false
         </p>
         <div class="d-flex gap-2">
           <a class="btn btn-primary" href="index.html#product">Explore</a>
-          <a class="btn btn-outline-primary" href="about.qmd">Learn more</a>
+          <a class="btn btn-outline-primary" href="intro.qmd">Learn more</a>
         </div>
         <p class="text-muted small mt-3">Trusted by students and researchers worldwide.</p>
       </div>
     </div>
   </div>
 </div>
-```  
+```
 
-```{=html}  
+```{=html}
 <!-- ========== SECTION: UPCOMING TRAINING ========== -->
 <section id="training" style="margin:40px 0;">
   <style>
@@ -62,9 +62,10 @@ toc: false
     <a class="btn" href="/training.html">Register Now</a>
   </div>
 </section>
-```  
+```
 
-## Solutions {#product .unnumbered}  
+## Solutions {#product .unnumbered}
+
 ```{=html}
 <style>
   .sb-products {
@@ -171,7 +172,7 @@ toc: false
     </div>
   </a>
 </div>
-```  
+```
 
 ## Services {#services .unnumbered}
 
@@ -273,8 +274,7 @@ toc: false
   </a>
   
 </div>
-```     
-
+```
 
 ```{=html}
 <section class="sb-stats">

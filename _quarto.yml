@@ -24,7 +24,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
+      - href: intro.qmd
         text: About Us
       - text: Solutions
         href: index.qmd#product

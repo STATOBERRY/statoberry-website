@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.statoberry.com/index.html</loc>
-    <lastmod>2025-08-19T08:15:11.096Z</lastmod>
+    <loc>https://www.statoberry.com/training.html</loc>
+    <lastmod>2025-08-19T07:47:59.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.statoberry.com/intro.html</loc>
+    <lastmod>2025-08-19T10:19:10.591Z</lastmod>
   </url>
   <url>
     <loc>https://www.statoberry.com/contact.html</loc>
     <lastmod>2025-08-19T06:19:17.888Z</lastmod>
   </url>
   <url>
-    <loc>https://www.statoberry.com/about.html</loc>
-    <lastmod>2025-08-19T04:33:08.763Z</lastmod>
+    <loc>https://www.statoberry.com/consultancy.html</loc>
+    <lastmod>2025-08-19T08:00:03.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.statoberry.com/index.html</loc>
+    <lastmod>2025-08-19T10:16:40.997Z</lastmod>
   </url>
   <url>
     <loc>https://www.statoberry.com/papaya.html</loc>
     <lastmod>2025-08-19T07:40:32.015Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.statoberry.com/training.html</loc>
-    <lastmod>2025-08-19T07:47:59.913Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.statoberry.com/consultancy.html</loc>
-    <lastmod>2025-08-19T08:00:03.547Z</lastmod>
   </url>
 </urlset>
