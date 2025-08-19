@@ -3,6 +3,7 @@ title: ""
 page-layout: full
 toc: false
 ---
+
 ```{=html}
 <div class="hero">
   <div class="container-fluid">
@@ -21,11 +22,50 @@ toc: false
     </div>
   </div>
 </div>
-
 ```  
-## Services {#product .unnumbered}  
 
 ```{=html}  
+<!-- ========== SECTION: UPCOMING TRAINING ========== -->
+<section id="training" style="margin:40px 0;">
+  <style>
+    #training .banner{
+      border-radius: 20px;
+      padding: 32px;
+      background: linear-gradient(135deg,#f0ddef 0%,#ffffff 100%);
+      box-shadow: 0 12px 28px rgba(0,0,0,.08);
+      text-align: center;
+    }
+    #training h2{ margin:0 0 10px; font-size:1.6rem; font-weight:700; color:#634360; }
+    #training p{ margin:0 0 16px; font-size:1rem; color:#374151; }
+    #training .date{
+      display:inline-block; padding:6px 12px; border-radius:999px;
+      background:#634360; color:#fff; font-weight:600; margin-bottom:16px;
+    }
+    #training .btn{
+      display:inline-block; padding:12px 20px; border-radius:999px;
+      background:#634360; color:#fff; font-weight:600; text-decoration:none;
+      box-shadow:0 8px 18px rgba(99,67,96,.25);
+    }
+    #training .btn:hover{ filter:brightness(0.95); }
+    /* dark mode */
+    .quarto-dark #training .banner{ background:#14161a; color:#e7e8ea; }
+    .quarto-dark #training p{ color:#c9c9c9; }
+  </style>
+
+  <div class="banner">
+    <div class="date">📅 September 20–24, 2025</div>
+    <h2>Upcoming Training: Data Science for Agricultural Research</h2>
+    <p>
+      Join our intensive hands-on program blending R, Python, and AI methods tailored for agricultural datasets. 
+      Designed for researchers, students, and professionals aiming to strengthen their analytics skills.
+    </p>
+    <a class="btn" href="/training.html">Register Now</a>
+  </div>
+</section>
+```  
+
+## Solutions {#product .unnumbered}  
+```{=html}
 <style>
   .sb-products {
     display: grid;
@@ -36,12 +76,15 @@ toc: false
 
   .sb-product {
     position: relative;
-    aspect-ratio: 1 / 1;      /* keeps square */
+    aspect-ratio: 1 / 1;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 8px 24px rgba(0,0,0,.08);
     cursor: pointer;
     transition: transform .25s ease;
+    text-decoration: none; /* remove link underline */
+    color: inherit;        /* inherit text color */
+    display: block;        /* ensure link fills */
   }
   .sb-product:hover {
     transform: translateY(-4px);
@@ -63,21 +106,16 @@ toc: false
     justify-content: center;
     padding: 16px;
     text-align: center;
-    background: rgba(99, 67, 96, 0.92); /* purple overlay */
+    background: rgba(99, 67, 96, 0.92);
     color: #fff;
     font-size: .9rem;
     opacity: 0;
     transition: opacity .3s ease;
   }
 
-  .sb-product:hover img {
-    opacity: 0.2;   /* fade image */
-  }
-  .sb-product:hover .sb-product__desc {
-    opacity: 1;     /* show text */
-  }
+  .sb-product:hover img { opacity: 0.2; }
+  .sb-product:hover .sb-product__desc { opacity: 1; }
 
-  /* dark mode tweak */
   .quarto-dark .sb-product__desc {
     background: rgba(198, 168, 194, 0.92);
     color: #0b0c0f;
@@ -86,65 +124,159 @@ toc: false
 
 <div class="sb-products">
   <!-- RAISINS -->
-  <div class="sb-product">
+  <a class="sb-product" href="https://www.raisins.live/">
     <img src="www/raisins.webp" alt="RAISINS">
     <div class="sb-product__desc">
       No-code, AI-assisted analytics platform for agricultural research.
     </div>
-  </div>
+  </a>
 
   <!-- KissanFinder -->
-  <div class="sb-product">
+  <a class="sb-product" href="kissan.html">
     <img src="www/kissan.webp" alt="KissanFinder">
     <div class="sb-product__desc">
       Encrypted farmer–consumer traceability and connections.
     </div>
-  </div>
+  </a>
 
   <!-- Bots -->
-  <div class="sb-product">
+  <a class="sb-product" href="bots.html">
     <img src="www/bot.webp" alt="Bots">
     <div class="sb-product__desc">
       Custom AI assistants for workshops, conferences and research workflows.
     </div>
-  </div>
+  </a>
 
   <!-- Websites -->
-  <div class="sb-product">
+  <a class="sb-product" href="websites.html">
     <img src="www/web.webp" alt="Websites">
     <div class="sb-product__desc">
-      Fast, professional AI powered websites for labs, projects and conferences 
+      Fast, professional AI powered websites for labs, projects and conferences.
     </div>
-  </div>
+  </a>
 
-<!-- wrapper-->
-  <div class="sb-product">
-    <img src="www/wrapper.webp" alt="APIs">
+  <!-- Wrapper -->
+  <a class="sb-product" href="wrappers.html">
+    <img src="www/wrapper.webp" alt="Wrappers">
     <div class="sb-product__desc">
       AI wrappers streamline complex models into easy-to-use tools, tailored for specific research and business needs.
     </div>
-  </div>
-  
-  <!-- papaya-->
-  <div class="sb-product">
-    <img src="www/papaya.webp" alt="APIs">
-    <div class="sb-product__desc">
-      PAPAYA(Professional Assistance for Publishing Academics and Your Aspirations) is the publication arm of Statoberry LLP, focusing on academic and research publications in agriculture.
-    </div>
-  </div>
-  
+  </a>
+
   <!-- APIs -->
-  <div class="sb-product">
+  <a class="sb-product" href="apis.html">
     <img src="www/api.webp" alt="APIs">
     <div class="sb-product__desc">
       Data and vision APIs for robotics, precision agriculture and prediction modelling.
     </div>
-  </div>
+  </a>
 </div>
-
 ```  
 
-```{=html}  
+## Services {#services .unnumbered}
+
+```{=html}
+<style>
+  .sb-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 2rem 0;
+  }
+
+  .sb-product {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+    cursor: pointer;
+    transition: transform .25s ease;
+    text-decoration: none; /* remove link underline */
+    color: inherit;        /* inherit text color */
+    display: block;        /* ensure link fills */
+  }
+  .sb-product:hover {
+    transform: translateY(-4px);
+  }
+
+  .sb-product img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity .3s ease;
+  }
+
+  .sb-product__desc {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    text-align: center;
+    background: rgba(99, 67, 96, 0.92);
+    color: #fff;
+    font-size: .9rem;
+    opacity: 0;
+    transition: opacity .3s ease;
+  }
+
+  .sb-product:hover img { opacity: 0.2; }
+  .sb-product:hover .sb-product__desc { opacity: 1; }
+
+  .quarto-dark .sb-product__desc {
+    background: rgba(198, 168, 194, 0.92);
+    color: #0b0c0f;
+  }
+</style>
+
+<div class="sb-products">
+  <!-- PAPAYA -->
+  <a class="sb-product" href="papaya.html">
+    <img src="www/papaya.webp" alt="papaya">
+    <div class="sb-product__desc">
+     PAPAYA (Professional Assistance for Publishing Academics and Your Aspirations) is the publishing division of Statoberry LLP, committed to making agricultural knowledge globally accessible through high-quality, open-access publishing.
+    </div>
+  </a>
+
+  <!-- JOSTA -->
+  <a class="sb-product" href="https://www.jostapubs.com/">
+    <img src="www/josta.webp" alt="josta">
+    <div class="sb-product__desc">
+     JOSTA (Journal of Sustainable Technology in Agriculture) is an open-access, peer-reviewed journal by Statoberry LLP, focused on advancing sustainable innovations and technologies that shape the future of agriculture.
+    </div>
+  </a>
+
+  <!-- TRAININGS -->
+  <a class="sb-product" href="training.html">
+    <img src="www/datatrain.webp" alt="training">
+    <div class="sb-product__desc">
+      We offer hands-on Data Science training, blending R, Python, and AI to equip researchers and students with practical skills for agricultural research and beyond.
+    </div>
+  </a>
+
+  <!-- Consultancy -->
+  <a class="sb-product" href="consultancy.html">
+    <img src="www/consultancy.webp" alt="Websites">
+    <div class="sb-product__desc">
+      We provide Data Science consultancy, delivering tailored analytics, AI solutions, and research support to help institutions, agribusinesses, and researchers turn complex data into actionable insights.
+    </div>
+  </a>
+  
+   <a class="sb-product" href="projects.html">
+    <img src="www/projects.webp" alt="projects">
+    <div class="sb-product__desc">
+      We handle projects in AI-driven research platforms, agricultural traceability, data science consultancy, and custom analytics solutions for academia and industry.
+    </div>
+  </a>
+  
+</div>
+```     
+
+
+```{=html}
 <section class="sb-stats">
   <div class="sb-stats__inner">
     <h2 class="sb-stats__title">The change we made</h2>
@@ -262,8 +394,9 @@ toc: false
     })();
   </script>
 </section>
-```  
-```{=html}  
+```
+
+```{=html}
 <section class="fox-banner">
   <div class="fox-inner">
     <img src="www/fox.webp" alt="Statoberry Fox" class="fox-img">

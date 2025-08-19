@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Tools for modern research and teaching">
+<meta name="description" content="Tailored analytics, AI solutions, and research support for agriculture.">
 
 <title>Statoberry</title>
 <style>
@@ -76,10 +76,10 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Statoberry">
-<meta property="og:description" content="Tools for modern research and teaching">
+<meta property="og:description" content="Tailored analytics, AI solutions, and research support for agriculture.">
 <meta property="og:image" content="https://www.statoberry.com/www/social-card.png">
 <meta name="twitter:title" content="Statoberry">
-<meta name="twitter:description" content="Tools for modern research and teaching">
+<meta name="twitter:description" content="Tailored analytics, AI solutions, and research support for agriculture.">
 <meta name="twitter:image" content="https://www.statoberry.com/www/social-card.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -102,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -148,436 +148,148 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
+<header id="title-block-header">
+<h1 class="title display-7">Data Science Consultancy</h1>
+
+</header>
 
 
+<style>
+  :root{
+    --brand:#634360; --brand-100:#f0ddef; --text:#0f172a;
+    --radius:16px; --shadow:0 12px 28px rgba(0,0,0,.10);
+  }
+  .hero{
+    border-radius:24px; padding:clamp(24px,5vw,56px); margin:8px 0 24px;
+    box-shadow:var(--shadow);
+    background: radial-gradient(900px 420px at 85% -10%, var(--brand-100), transparent 60%),
+                linear-gradient(180deg,#ffffff,#faf7fb 70%,#ffffff);
+  }
+  .hero h1{ margin:0 0 .25rem 0; font-weight:700; letter-spacing:.2px; }
+  .hero p{ margin:0; color:#4b5563; max-width:75ch; }
+  .btn-row{ display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; }
+  .btn{
+    display:inline-block; border-radius:999px; padding:12px 18px;
+    background:var(--brand); color:#fff; text-decoration:none; font-weight:600;
+    box-shadow:0 10px 20px rgba(99,67,96,.25);
+  }
+  .btn--ghost{
+    background:#fff; color:var(--brand);
+    border:1px solid rgba(0,0,0,.08);
+  }
+  .btn:hover{ filter:brightness(0.97); }
+
+  .section{ margin: 18px 0 8px; }
+  .section h2{ margin: 0 0 8px; font-size: 1.35rem; }
+
+  .grid{ display:grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin:1.25rem 0 2rem; }
+  .card{
+    background:#fff; border:1px solid rgba(0,0,0,.06);
+    border-radius:var(--radius); padding:20px; box-shadow:var(--shadow);
+  }
+  .card h3{ margin:.25rem 0 .5rem 0; font-size:1.05rem; }
+  .card p{ margin:0; color:#374151; }
+
+  .muted{ color:#6b7280; }
+
+  /* dark mode */
+  .quarto-dark .hero, .quarto-dark .card{ background:#14161a; border-color:rgba(255,255,255,.06); color:#e7e8ea; }
+  .quarto-dark .hero p, .quarto-dark .muted{ color:#c9c9c9; }
+  .quarto-dark .btn--ghost{ background:#0f1115; color:#e7e8ea; border-color:rgba(255,255,255,.08); }
+</style>
 
 <div class="hero">
-  <div class="container-fluid">
-    <div class="row align-items-center g-4">
-      <div class="col-lg-7">
-        <h1 class="hero-title display-5" style="margin-bottom:.5rem;">Sweet and simple data science - that’s Statoberry.</h1>
-        <p class="lead" style="max-width:60ch;">
-          Statoberry LLP is a pioneering data analytics company transforming the way agricultural research and practice embrace data science. We create intelligent, AI-powered tools and services that simplify complex analyses, empower decision-making, and connect stakeholders across the agricultural ecosystem. From advanced platforms for research, to secure farmer-consumer networks, to cutting-edge APIs for robotics and precision farming, Statoberry stands at the intersection of technology and agriculture-making data-driven solutions accessible, impactful, and future-ready.
-        </p>
-        <div class="d-flex gap-2">
-          <a class="btn btn-primary" href="index.html#product">Explore</a>
-          <a class="btn btn-outline-primary" href="./about.html">Learn more</a>
-        </div>
-        <p class="text-muted small mt-3">Trusted by students and researchers worldwide.</p>
-      </div>
-    </div>
+  <h1>data science consultancy</h1>
+  <p>we deliver tailored analytics, ai solutions, and research support to help institutions, agribusinesses, and researchers turn complex data into actionable insights — from study design and advanced modelling to dashboards and decision support.</p>
+  <div class="btn-row">
+    <a class="btn" href="./contact.html">start a project</a>
+    <a class="btn btn--ghost" href="mailto:help@statoberry.com">email us</a>
   </div>
 </div>
-<!-- ========== SECTION: UPCOMING TRAINING ========== -->
-<section id="training" style="margin:40px 0;">
-  <style>
-    #training .banner{
-      border-radius: 20px;
-      padding: 32px;
-      background: linear-gradient(135deg,#f0ddef 0%,#ffffff 100%);
-      box-shadow: 0 12px 28px rgba(0,0,0,.08);
-      text-align: center;
-    }
-    #training h2{ margin:0 0 10px; font-size:1.6rem; font-weight:700; color:#634360; }
-    #training p{ margin:0 0 16px; font-size:1rem; color:#374151; }
-    #training .date{
-      display:inline-block; padding:6px 12px; border-radius:999px;
-      background:#634360; color:#fff; font-weight:600; margin-bottom:16px;
-    }
-    #training .btn{
-      display:inline-block; padding:12px 20px; border-radius:999px;
-      background:#634360; color:#fff; font-weight:600; text-decoration:none;
-      box-shadow:0 8px 18px rgba(99,67,96,.25);
-    }
-    #training .btn:hover{ filter:brightness(0.95); }
-    /* dark mode */
-    .quarto-dark #training .banner{ background:#14161a; color:#e7e8ea; }
-    .quarto-dark #training p{ color:#c9c9c9; }
-  </style>
-
-  <div class="banner">
-    <div class="date">📅 September 20–24, 2025</div>
-    <h2 class="anchored">Upcoming Training: Data Science for Agricultural Research</h2>
-    <p>
-      Join our intensive hands-on program blending R, Python, and AI methods tailored for agricultural datasets. 
-      Designed for researchers, students, and professionals aiming to strengthen their analytics skills.
-    </p>
-    <a class="btn" href="./training.html">Register Now</a>
+<!-- WHAT WE DO -->
+<div class="section"><h2 class="anchored">what we do</h2></div>
+<div class="grid">
+  <div class="card">
+    <h3 class="anchored">tailored analytics &amp; modelling</h3>
+    <p>design and analyse trials (crd, rcbd, split-plot, sem, mixed models), power/sample size, and reproducible workflows.</p>
   </div>
-</section>
-<section id="product" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="product">Solutions</h2>
-<style>
-  .sb-products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin: 2rem 0;
-  }
-
-  .sb-product {
-    position: relative;
-    aspect-ratio: 1 / 1;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0,0,0,.08);
-    cursor: pointer;
-    transition: transform .25s ease;
-    text-decoration: none; /* remove link underline */
-    color: inherit;        /* inherit text color */
-    display: block;        /* ensure link fills */
-  }
-  .sb-product:hover {
-    transform: translateY(-4px);
-  }
-
-  .sb-product img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: opacity .3s ease;
-  }
-
-  .sb-product__desc {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-    text-align: center;
-    background: rgba(99, 67, 96, 0.92);
-    color: #fff;
-    font-size: .9rem;
-    opacity: 0;
-    transition: opacity .3s ease;
-  }
-
-  .sb-product:hover img { opacity: 0.2; }
-  .sb-product:hover .sb-product__desc { opacity: 1; }
-
-  .quarto-dark .sb-product__desc {
-    background: rgba(198, 168, 194, 0.92);
-    color: #0b0c0f;
-  }
-</style>
-
-<div class="sb-products">
-  <!-- RAISINS -->
-  <a class="sb-product" href="https://www.raisins.live/">
-    <img src="www/raisins.webp" alt="RAISINS">
-    <div class="sb-product__desc">
-      No-code, AI-assisted analytics platform for agricultural research.
-    </div>
-  </a>
-
-  <!-- KissanFinder -->
-  <a class="sb-product" href="kissan.html">
-    <img src="www/kissan.webp" alt="KissanFinder">
-    <div class="sb-product__desc">
-      Encrypted farmer–consumer traceability and connections.
-    </div>
-  </a>
-
-  <!-- Bots -->
-  <a class="sb-product" href="bots.html">
-    <img src="www/bot.webp" alt="Bots">
-    <div class="sb-product__desc">
-      Custom AI assistants for workshops, conferences and research workflows.
-    </div>
-  </a>
-
-  <!-- Websites -->
-  <a class="sb-product" href="websites.html">
-    <img src="www/web.webp" alt="Websites">
-    <div class="sb-product__desc">
-      Fast, professional AI powered websites for labs, projects and conferences.
-    </div>
-  </a>
-
-  <!-- Wrapper -->
-  <a class="sb-product" href="wrappers.html">
-    <img src="www/wrapper.webp" alt="Wrappers">
-    <div class="sb-product__desc">
-      AI wrappers streamline complex models into easy-to-use tools, tailored for specific research and business needs.
-    </div>
-  </a>
-
-  <!-- APIs -->
-  <a class="sb-product" href="apis.html">
-    <img src="www/api.webp" alt="APIs">
-    <div class="sb-product__desc">
-      Data and vision APIs for robotics, precision agriculture and prediction modelling.
-    </div>
-  </a>
+  <div class="card">
+    <h3 class="anchored">ai &amp; ml solutions</h3>
+    <p>predictive modelling, nlp, recommendation, anomaly detection, and custom model wrappers for your use cases.</p>
+  </div>
+  <div class="card">
+    <h3 class="anchored">precision agriculture &amp; vision</h3>
+    <p>image-based detection, quality grading, yield estimation, and robotics-friendly apis for field operations.</p>
+  </div>
+  <div class="card">
+    <h3 class="anchored">dashboards &amp; decision support</h3>
+    <p>clean, reliable dashboards (quarto/shiny/streamlit) with automated reports and data validations.</p>
+  </div>
+  <div class="card">
+    <h3 class="anchored">study design &amp; biostatistics</h3>
+    <p>protocols, measurement frameworks, survey tools, kpis, and publication-ready tables/figures.</p>
+  </div>
+  <div class="card">
+    <h3 class="anchored">data engineering</h3>
+    <p>pipelines, cleaning, metadata standards, and secure storage to keep analytics robust and auditable.</p>
+  </div>
 </div>
-</section>
-<section id="services" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="services">Services</h2>
-<style>
-  .sb-products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin: 2rem 0;
-  }
 
-  .sb-product {
-    position: relative;
-    aspect-ratio: 1 / 1;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0,0,0,.08);
-    cursor: pointer;
-    transition: transform .25s ease;
-    text-decoration: none; /* remove link underline */
-    color: inherit;        /* inherit text color */
-    display: block;        /* ensure link fills */
-  }
-  .sb-product:hover {
-    transform: translateY(-4px);
-  }
-
-  .sb-product img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: opacity .3s ease;
-  }
-
-  .sb-product__desc {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-    text-align: center;
-    background: rgba(99, 67, 96, 0.92);
-    color: #fff;
-    font-size: .9rem;
-    opacity: 0;
-    transition: opacity .3s ease;
-  }
-
-  .sb-product:hover img { opacity: 0.2; }
-  .sb-product:hover .sb-product__desc { opacity: 1; }
-
-  .quarto-dark .sb-product__desc {
-    background: rgba(198, 168, 194, 0.92);
-    color: #0b0c0f;
-  }
-</style>
-
-<div class="sb-products">
-  <!-- PAPAYA -->
-  <a class="sb-product" href="papaya.html">
-    <img src="www/papaya.webp" alt="papaya">
-    <div class="sb-product__desc">
-     PAPAYA (Professional Assistance for Publishing Academics and Your Aspirations) is the publishing division of Statoberry LLP, committed to making agricultural knowledge globally accessible through high-quality, open-access publishing.
-    </div>
-  </a>
-
-  <!-- JOSTA -->
-  <a class="sb-product" href="https://www.jostapubs.com/">
-    <img src="www/josta.webp" alt="josta">
-    <div class="sb-product__desc">
-     JOSTA (Journal of Sustainable Technology in Agriculture) is an open-access, peer-reviewed journal by Statoberry LLP, focused on advancing sustainable innovations and technologies that shape the future of agriculture.
-    </div>
-  </a>
-
-  <!-- TRAININGS -->
-  <a class="sb-product" href="training.html">
-    <img src="www/datatrain.webp" alt="training">
-    <div class="sb-product__desc">
-      We offer hands-on Data Science training, blending R, Python, and AI to equip researchers and students with practical skills for agricultural research and beyond.
-    </div>
-  </a>
-
-  <!-- Consultancy -->
-  <a class="sb-product" href="consultancy.html">
-    <img src="www/consultancy.webp" alt="Websites">
-    <div class="sb-product__desc">
-      We provide Data Science consultancy, delivering tailored analytics, AI solutions, and research support to help institutions, agribusinesses, and researchers turn complex data into actionable insights.
-    </div>
-  </a>
-  
-   <a class="sb-product" href="projects.html">
-    <img src="www/projects.webp" alt="projects">
-    <div class="sb-product__desc">
-      We handle projects in AI-driven research platforms, agricultural traceability, data science consultancy, and custom analytics solutions for academia and industry.
-    </div>
-  </a>
-  
+<div class="btn-row">
+  <a class="btn" href="./contact.html">talk to a consultant</a>
 </div>
-<section class="sb-stats">
-  <div class="sb-stats__inner">
-    <h2 class="sb-stats__title anchored">The change we made</h2>
-
-    <div class="sb-stats__grid">
-      <article class="sb-card">
-        <div class="sb-num" data-target="10000" data-suffix="+">0</div>
-        <p class="sb-label">Researchers</p>
-      </article>
-
-      <article class="sb-card">
-        <div class="sb-num" data-target="3" data-suffix="+">0</div>
-        <p class="sb-label">Institutions</p>
-      </article>
-
-      <article class="sb-card">
-        <div class="sb-num" data-target="3" data-suffix="+">0</div>
-        <p class="sb-label">Countries</p>
-      </article>
-
-      <article class="sb-card">
-        <div class="sb-num" data-target="10" data-suffix="+">0</div>
-        <p class="sb-label">Chatbots</p>
-      </article>
-    </div>
+<!-- HOW WE WORK -->
+<div class="section"><h2 class="anchored">how we work</h2></div>
+<div class="grid">
+  <div class="card">
+    <h3 class="anchored">1 · discovery</h3>
+    <p>clarify goals, data sources, constraints, and success metrics.</p>
   </div>
-
-  <style>
-    .sb-stats { 
-      padding: 4rem 1rem; 
-      background: #ffffff;   /* light background */
-      color: #222;
-    }
-    .sb-stats__inner { max-width: 1100px; margin: 0 auto; text-align: center; }
-    .sb-stats__title { 
-      margin: 0 0 2rem; 
-      font-size: clamp(1.6rem, 1.2rem + 1.5vw, 2.2rem); 
-      font-weight: 700; 
-      color: #4B0082; /* purple heading */
-    }
-    .sb-stats__grid { 
-      display: grid; 
-      grid-template-columns: repeat(4, 1fr); 
-      gap: 1.5rem; 
-    }
-    @media (max-width: 900px){ .sb-stats__grid{ grid-template-columns: repeat(2, 1fr);} }
-    @media (max-width: 520px){ .sb-stats__grid{ grid-template-columns: 1fr; } }
-
-    .sb-card {
-      background: #fafafa;
-      border: 1px solid #eee;
-      border-radius: 16px;
-      padding: 2rem 1.5rem;
-      box-shadow: 0 6px 18px rgba(0,0,0,.08);
-      display: grid; place-items: center;
-      aspect-ratio: 1 / 1;
-      transition: transform .25s ease, box-shadow .25s ease;
-    }
-    .sb-card:hover { 
-      transform: translateY(-4px); 
-      box-shadow: 0 10px 28px rgba(0,0,0,.15); 
-    }
-
-    .sb-num {
-      font-size: clamp(2rem, 1.3rem + 3vw, 3rem);
-      font-weight: 800; 
-      color: #6A0DAD; /* deep purple */
-    }
-    .sb-label {
-      margin-top: .6rem;
-      font-size: 1rem; 
-      color: #555;
-    }
-  </style>
-
-  <script>
-    (function(){
-      const nums = document.querySelectorAll('.sb-num');
-      const format = new Intl.NumberFormat(undefined);
-      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-      function animate(el){
-        const target = Number(el.dataset.target || '0');
-        const suffix = el.dataset.suffix || '';
-        const duration = Number(el.dataset.duration || '1200');
-        if (!Number.isFinite(target) || prefersReduced) {
-          el.textContent = format.format(target) + suffix;
-          return;
-        }
-        let startTs = null;
-        const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
-
-        function tick(ts){
-          if (!startTs) startTs = ts;
-          const elapsed = ts - startTs;
-          const p = Math.min(1, elapsed / duration);
-          const eased = easeOutCubic(p);
-          const val = Math.round(target * eased);
-          el.textContent = format.format(val) + suffix;
-          if (p < 1) requestAnimationFrame(tick);
-        }
-        requestAnimationFrame(tick);
-      }
-
-      const io = new IntersectionObserver((entries, obs) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting){
-            animate(entry.target);
-            obs.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.35 });
-
-      nums.forEach(n => io.observe(n));
-    })();
-  </script>
-</section>
-<section class="fox-banner">
-  <div class="fox-inner">
-    <img src="www/fox.webp" alt="Statoberry Fox" class="fox-img">
-    <p class="fox-text">
-      When data become sour, <strong>Team Statoberry</strong> will make you the fox who really gets the berry — and its sweet !!!
-    </p>
+  <div class="card">
+    <h3 class="anchored">2 · proposal</h3>
+    <p>deliver scope, timeline, milestones, and pricing with clear deliverables.</p>
   </div>
-</section>
+  <div class="card">
+    <h3 class="anchored">3 · build</h3>
+    <p>iterate in short sprints with demos and feedback on real data.</p>
+  </div>
+  <div class="card">
+    <h3 class="anchored">4 · validate</h3>
+    <p>qa, reproducibility checks, and documentation for handover.</p>
+  </div>
+  <div class="card">
+    <h3 class="anchored">5 · deliver &amp; support</h3>
+    <p>deployment, training, and ongoing support as needed.</p>
+  </div>
+</div>
 
-<style>
-  .fox-banner {
-    background: linear-gradient(135deg, #faf5ff, #fdfdfd);
-    padding: 3rem 1rem;
-    text-align: center;
-    margin-top: 4rem;
-    border-top: 2px solid #eee;
-  }
+<div class="btn-row">
+  <a class="btn" href="./contact.html">get a proposal</a>
+  <span class="muted">prefer email? write to <a href="mailto:help@statoberry.com">help@statoberry.com</a>.</span>
+</div>
+<!-- ENGAGEMENT OPTIONS -->
+<div class="section"><h2 class="anchored">engagement options</h2></div>
+<div class="grid">
+  <div class="card">
+    <h3 class="anchored">project-based</h3>
+    <p>fixed scope and timeline with milestone-based delivery.</p>
+  </div>
+  <div class="card">
+    <h3 class="anchored">retainer</h3>
+    <p>ongoing analytics/ai support for teams that need steady velocity.</p>
+  </div>
+  <div class="card">
+    <h3 class="anchored">advisory</h3>
+    <p>lightweight guidance, review, and audit of methods and results.</p>
+  </div>
+</div>
 
-  .fox-inner {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .fox-img {
-    max-width: 200px;
-    height: auto;
-    margin-bottom: 1.5rem;
-    filter: drop-shadow(0 8px 16px rgba(0,0,0,.15));
-    transition: transform .3s ease;
-  }
-  .fox-img:hover {
-    transform: scale(1.05) rotate(-2deg);
-  }
-
-  .fox-text {
-    font-size: clamp(1.1rem, 1rem + 1vw, 1.6rem);
-    font-weight: 500;
-    line-height: 1.5;
-    color: #333;
-  }
-
-  .fox-text strong {
-    color: #6A0DAD; /* Statoberry purple */
-    font-weight: 700;
-  }
-</style>
+<div class="btn-row" style="margin-bottom:12px;">
+  <a class="btn" href="./contact.html">contact us</a>
+  <a class="btn btn--ghost" href="./">back to home</a>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

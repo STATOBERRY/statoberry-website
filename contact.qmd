@@ -60,9 +60,7 @@ page-layout: full
 
   /* map */
   .map-wrap{ border-radius: 16px; overflow:hidden; box-shadow: var(--shadow); }
-  .map{
-    width:100%; aspect-ratio: 16 / 9; border:0;
-  }
+  .map{ width:100%; aspect-ratio: 16 / 9; border:0; }
 
   /* dark mode */
   .quarto-dark .card, .quarto-dark .contact-hero{ background:#14161a; border-color:rgba(255,255,255,.06); color:#e7e8ea; }
@@ -89,6 +87,10 @@ page-layout: full
       <a class="pill" href="#map" aria-label="view on map">
         <span>📍</span><strong class="accent">view on map</strong>
       </a>
+      <!-- direct google maps link with your exact coordinates -->
+      <a class="pill" href="https://www.google.com/maps?q=8.444145,76.975816&z=16" target="_blank" rel="noopener">
+        <span>🗺️</span><strong>open in google maps</strong>
+      </a>
     </div>
   </div>
 
@@ -107,11 +109,11 @@ page-layout: full
     <h3>email</h3>
     <div class="row">
       <a class="pill" href="mailto:statistician@statoberry.com"><span>✉️</span><strong>statistician@statoberry.com</strong></a>
-      <a class="pill" href="mailto:help@statoberry.com"><span>✉️</span><strong>help@statoberry.com</strong></a>
+      <a class="pill" href="mailto:info@statoberry.com"><span>✉️</span><strong>help@statoberry.com</strong></a>
     </div>
   </div>
 
-  <!-- quick message form (opens your mail app) -->
+  <!-- quick message form (opens your mail app via a generated mailto link) -->
   <div class="card">
     <h3>send a quick message</h3>
     <form class="form" id="contact-form">
@@ -121,34 +123,49 @@ page-layout: full
       <button type="submit" class="btn">send</button>
       <small style="opacity:.8;">submitting opens your email app with a pre-filled message.</small>
     </form>
+    <!-- hidden anchor used to trigger the mail app more reliably -->
+    <a id="mailto-link" href="#" style="display:none;" rel="noopener"></a>
   </div>
 </div>
 
-<!-- map -->
+<!-- map centered on your precise coordinates -->
 <div id="map" class="map-wrap">
   <iframe
     class="map"
     title="statoberry llp on map"
-    src="https://www.google.com/maps?q=Thiruvananthapuram%20Kerala&output=embed"
+    src="https://www.google.com/maps?q=8.444145,76.975816&z=16&output=embed"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade">
   </iframe>
 </div>
 
 <script>
-  // simple mailto composer
+  // simple mailto composer with a hidden anchor for better cross-browser behavior
   document.getElementById('contact-form').addEventListener('submit', function(e){
     e.preventDefault();
-    const name = encodeURIComponent(document.getElementById('name').value.trim());
-    const email = encodeURIComponent(document.getElementById('email').value.trim());
-    const msg = encodeURIComponent(document.getElementById('message').value.trim());
 
-    const subject = `New enquiry from ${decodeURIComponent(name)} (${decodeURIComponent(email)})`;
-    const body = `Name: ${decodeURIComponent(name)}%0AEmail: ${decodeURIComponent(email)}%0A%0AMessage:%0A${decodeURIComponent(msg)}`;
+    const nameRaw = document.getElementById('name').value.trim();
+    const emailRaw = document.getElementById('email').value.trim();
+    const msgRaw = document.getElementById('message').value.trim();
 
-    // primary: help@statoberry.com, cc: statistician@
-    const mailto = `mailto:help@statoberry.com?cc=statistician@statoberry.com&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailto;
+    if(!nameRaw || !emailRaw || !msgRaw) return; // guard
+
+    const subject = `New enquiry from ${nameRaw} (${emailRaw})`;
+    const body =
+`Name: ${nameRaw}
+Email: ${emailRaw}
+
+Message:
+${msgRaw}`;
+
+    const mailto = `mailto:info@statoberry.com?cc=statistician@statoberry.com&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    const link = document.getElementById('mailto-link');
+    link.setAttribute('href', mailto);
+
+    // some browsers handle window.location on mailto inconsistently; clicking an <a> is more reliable
+    link.click();
   });
 </script>
-```  
+
+```

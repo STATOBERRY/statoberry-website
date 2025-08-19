@@ -1,0 +1,151 @@
+---
+title: "Data Science Consultancy"
+page-layout: full
+toc: false
+description: "Tailored analytics, AI solutions, and research support for agriculture."
+---
+
+```{=html}
+<style>
+  :root{
+    --brand:#634360; --brand-100:#f0ddef; --text:#0f172a;
+    --radius:16px; --shadow:0 12px 28px rgba(0,0,0,.10);
+  }
+  .hero{
+    border-radius:24px; padding:clamp(24px,5vw,56px); margin:8px 0 24px;
+    box-shadow:var(--shadow);
+    background: radial-gradient(900px 420px at 85% -10%, var(--brand-100), transparent 60%),
+                linear-gradient(180deg,#ffffff,#faf7fb 70%,#ffffff);
+  }
+  .hero h1{ margin:0 0 .25rem 0; font-weight:700; letter-spacing:.2px; }
+  .hero p{ margin:0; color:#4b5563; max-width:75ch; }
+  .btn-row{ display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; }
+  .btn{
+    display:inline-block; border-radius:999px; padding:12px 18px;
+    background:var(--brand); color:#fff; text-decoration:none; font-weight:600;
+    box-shadow:0 10px 20px rgba(99,67,96,.25);
+  }
+  .btn--ghost{
+    background:#fff; color:var(--brand);
+    border:1px solid rgba(0,0,0,.08);
+  }
+  .btn:hover{ filter:brightness(0.97); }
+
+  .section{ margin: 18px 0 8px; }
+  .section h2{ margin: 0 0 8px; font-size: 1.35rem; }
+
+  .grid{ display:grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin:1.25rem 0 2rem; }
+  .card{
+    background:#fff; border:1px solid rgba(0,0,0,.06);
+    border-radius:var(--radius); padding:20px; box-shadow:var(--shadow);
+  }
+  .card h3{ margin:.25rem 0 .5rem 0; font-size:1.05rem; }
+  .card p{ margin:0; color:#374151; }
+
+  .muted{ color:#6b7280; }
+
+  /* dark mode */
+  .quarto-dark .hero, .quarto-dark .card{ background:#14161a; border-color:rgba(255,255,255,.06); color:#e7e8ea; }
+  .quarto-dark .hero p, .quarto-dark .muted{ color:#c9c9c9; }
+  .quarto-dark .btn--ghost{ background:#0f1115; color:#e7e8ea; border-color:rgba(255,255,255,.08); }
+</style>
+
+<div class="hero">
+  <h1>data science consultancy</h1>
+  <p>we deliver tailored analytics, ai solutions, and research support to help institutions, agribusinesses, and researchers turn complex data into actionable insights — from study design and advanced modelling to dashboards and decision support.</p>
+  <div class="btn-row">
+    <a class="btn" href="/contact.html">start a project</a>
+    <a class="btn btn--ghost" href="mailto:help@statoberry.com">email us</a>
+  </div>
+</div>
+```  
+
+```{=html}
+<!-- WHAT WE DO -->
+<div class="section"><h2>what we do</h2></div>
+<div class="grid">
+  <div class="card">
+    <h3>tailored analytics & modelling</h3>
+    <p>design and analyse trials (crd, rcbd, split-plot, sem, mixed models), power/sample size, and reproducible workflows.</p>
+  </div>
+  <div class="card">
+    <h3>ai & ml solutions</h3>
+    <p>predictive modelling, nlp, recommendation, anomaly detection, and custom model wrappers for your use cases.</p>
+  </div>
+  <div class="card">
+    <h3>precision agriculture & vision</h3>
+    <p>image-based detection, quality grading, yield estimation, and robotics-friendly apis for field operations.</p>
+  </div>
+  <div class="card">
+    <h3>dashboards & decision support</h3>
+    <p>clean, reliable dashboards (quarto/shiny/streamlit) with automated reports and data validations.</p>
+  </div>
+  <div class="card">
+    <h3>study design & biostatistics</h3>
+    <p>protocols, measurement frameworks, survey tools, kpis, and publication-ready tables/figures.</p>
+  </div>
+  <div class="card">
+    <h3>data engineering</h3>
+    <p>pipelines, cleaning, metadata standards, and secure storage to keep analytics robust and auditable.</p>
+  </div>
+</div>
+
+<div class="btn-row">
+  <a class="btn" href="/contact.html">talk to a consultant</a>
+</div>
+```  
+```{=html}
+<!-- HOW WE WORK -->
+<div class="section"><h2>how we work</h2></div>
+<div class="grid">
+  <div class="card">
+    <h3>1 · discovery</h3>
+    <p>clarify goals, data sources, constraints, and success metrics.</p>
+  </div>
+  <div class="card">
+    <h3>2 · proposal</h3>
+    <p>deliver scope, timeline, milestones, and pricing with clear deliverables.</p>
+  </div>
+  <div class="card">
+    <h3>3 · build</h3>
+    <p>iterate in short sprints with demos and feedback on real data.</p>
+  </div>
+  <div class="card">
+    <h3>4 · validate</h3>
+    <p>qa, reproducibility checks, and documentation for handover.</p>
+  </div>
+  <div class="card">
+    <h3>5 · deliver & support</h3>
+    <p>deployment, training, and ongoing support as needed.</p>
+  </div>
+</div>
+
+<div class="btn-row">
+  <a class="btn" href="/contact.html">get a proposal</a>
+  <span class="muted">prefer email? write to <a href="mailto:help@statoberry.com">help@statoberry.com</a>.</span>
+</div>
+```  
+
+```{=html}  
+<!-- ENGAGEMENT OPTIONS -->
+<div class="section"><h2>engagement options</h2></div>
+<div class="grid">
+  <div class="card">
+    <h3>project-based</h3>
+    <p>fixed scope and timeline with milestone-based delivery.</p>
+  </div>
+  <div class="card">
+    <h3>retainer</h3>
+    <p>ongoing analytics/ai support for teams that need steady velocity.</p>
+  </div>
+  <div class="card">
+    <h3>advisory</h3>
+    <p>lightweight guidance, review, and audit of methods and results.</p>
+  </div>
+</div>
+
+<div class="btn-row" style="margin-bottom:12px;">
+  <a class="btn" href="/contact.html">contact us</a>
+  <a class="btn btn--ghost" href="/">back to home</a>
+</div>
+```  

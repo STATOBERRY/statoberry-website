@@ -1,0 +1,208 @@
+---
+title: "PAPAYA — publishing division"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<!-- ========== STYLES + HERO ========== -->
+<style>
+  :root{
+    --brand:#634360; --brand-100:#f0ddef; --text:#0f172a;
+    --radius:16px; --shadow:0 12px 28px rgba(0,0,0,.10);
+  }
+  .hero{ border-radius:24px; padding:clamp(24px,5vw,56px); margin:8px 0 24px;
+    box-shadow:var(--shadow);
+    background: radial-gradient(900px 420px at 85% -10%, var(--brand-100), transparent 60%),
+                linear-gradient(180deg,#ffffff,#faf7fb 70%,#ffffff); }
+  .hero h1{ margin:0 0 .25rem 0; font-weight:700; letter-spacing:.2px; }
+  .hero p{ margin:0; color:#4b5563; max-width:75ch; }
+
+  .btn-row{ display:flex; gap:12px; flex-wrap:wrap; margin-top:10px; }
+  .btn{ display:inline-block; border-radius:999px; padding:12px 18px;
+    background:var(--brand); color:#fff; text-decoration:none; font-weight:600;
+    box-shadow:0 10px 20px rgba(99,67,96,.25); }
+  .btn--ghost{ background:#fff; color:var(--brand); border:1px solid rgba(0,0,0,.08); }
+  .btn:hover{ filter:brightness(0.97); }
+
+  .grid{ display:grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin:1.25rem 0 2rem; }
+  .card{ background:#fff; border:1px solid rgba(0,0,0,.06); border-radius:var(--radius); padding:20px; box-shadow:var(--shadow); }
+  .card h3{ margin:.25rem 0 .5rem 0; font-size:1.05rem; }
+  .card p{ margin:0; color:#374151; }
+
+  .section{ margin: 18px 0 8px; }
+  .section h2{ margin: 0 0 8px; font-size: 1.35rem; }
+  .muted{ color:#6b7280; }
+
+  .flow{ margin:1.5rem 0 0; background:#fff; border:1px solid rgba(0,0,0,.06); border-radius:16px; box-shadow:var(--shadow); padding:12px; }
+  .flow img{ width:100%; height:auto; display:block; border-radius:12px; }
+
+  /* dark mode */
+  .quarto-dark .hero, .quarto-dark .card, .quarto-dark .flow{ background:#14161a; border-color:rgba(255,255,255,.06); color:#e7e8ea; }
+  .quarto-dark .hero p, .quarto-dark .muted{ color:#c9c9c9; }
+  .quarto-dark .btn--ghost{ background:#0f1115; color:#e7e8ea; border-color:rgba(255,255,255,.08); }
+</style>
+
+<div class="hero">
+  <h1>About PAPAYA</h1>
+  <p>PAPAYA (Professional Assistance for Publishing Academics and Your Aspirations), the publishing division of Statoberry LLP, is dedicated to advancing agricultural education and research. we ensure every book meets rigorous quality standards set by subject matter specialists. our mission is barrier-free access: by offering open-access versions online, we empower researchers, educators, and students worldwide. our platforms are widely used by agricultural researchers for data analysis, and we actively promote books through our channels to reach a global audience.</p>
+  <div class="btn-row">
+    <a class="btn" href="#offerings">see what we offer</a>
+    <a class="btn btn--ghost" href="#why-publish">why publish with us</a>
+    <a class="btn" href="#submit-proposal">Submit Proposal</a>
+  </div>
+</div>
+```  
+```{=html}
+<!-- ========== SECTION: WHAT WE OFFER (HEADING) ========== -->
+<div class="section">
+  <h2 id="offerings">what we offer</h2>
+</div>  
+<!-- ========== SECTION: WHAT WE OFFER (CARDS) ========== -->
+<div class="grid">
+  <div class="card">
+    <h3>rigorous quality assurance</h3>
+    <p>manuscripts are reviewed and approved by subject matter specialists to ensure accuracy, relevance, and scholarly value.</p>
+  </div>
+  <div class="card">
+    <h3>professional typesetting</h3>
+    <p>high-quality formatting and layout design tailored for academic and research publications.</p>
+  </div>
+  <div class="card">
+    <h3>expert proofreading</h3>
+    <p>comprehensive editing by agricultural science experts to ensure clarity, precision, and consistency.</p>
+  </div>
+  <div class="card">
+    <h3>custom cover design</h3>
+    <p>attractive, professional covers that reflect the essence of your work and your audience.</p>
+  </div>
+  <div class="card">
+    <h3>open-access online publishing</h3>
+    <p>we use github to publish works online. all works are freely available to promote global accessibility and open-source publishing.</p>
+  </div>
+  <div class="card">
+    <h3>publishing on amazon kdp</h3>
+    <p>paperback and hard-cover publishing with worldwide distribution through amazon, reaching a global audience.</p>
+  </div>
+</div>
+```  
+
+```{=html}  
+<!-- ========== SECTION: COMMITMENT TO QUALITY (HEADING) ========== -->
+<div class="section">
+  <h2>our commitment to quality</h2>
+</div>
+<!-- ========== SECTION: COMMITMENT TO QUALITY (CALLOUTS) ========== -->
+<div class="grid">
+  <div class="card">
+    <h3>expert approval</h3>
+    <p>only manuscripts approved by our subject matter specialists will be published.</p>
+  </div>
+  <div class="card">
+    <h3>barrier-free knowledge</h3>
+    <p>we prioritise open-access publishing to remove financial and geographical barriers.</p>
+  </div>
+  <div class="card">
+    <h3>high standards</h3>
+    <p>every publication undergoes stringent proofreading, typesetting, and design processes to ensure professional quality.</p>
+  </div>
+  <div class="card">
+    <h3>marketing your book</h3>
+    <p>we actively promote published books through our online data analysis platforms and channels to reach a wider audience.</p>
+  </div>
+</div>
+```  
+```{=html}  
+<!-- ========== SECTION: WHY PUBLISH (HEADING) ========== -->
+<div class="section">
+  <h2 id="why-publish">why publish with papaya?</h2>
+</div>
+<!-- ========== SECTION: WHY PUBLISH (CARDS) ========== -->
+<div class="grid">
+  <div class="card">
+    <h3>excellence in agriculture</h3>
+    <p>we focus on advancing agricultural education and practice through high-quality academic and research works.</p>
+  </div>
+  <div class="card">
+    <h3>ethical publishing</h3>
+    <p>we prioritise disseminating knowledge, not profit, ensuring your work reaches a global audience without barriers.</p>
+  </div>
+  <div class="card">
+    <h3>global accessibility</h3>
+    <p>our free online platform ensures your research is accessible to readers across the globe, anywhere, anytime.</p>
+  </div>
+  <div class="card">
+    <h3>professional support</h3>
+    <p>from manuscript review to amazon kdp publishing, we offer end-to-end assistance for your work.</p>
+  </div>
+</div>
+```  
+
+```{=html}   
+<!-- ========== SECTION: FLOW IMAGE (HEADING) ========== -->
+<div class="section">
+  <h2>how papaya works — at a glance</h2>
+  <p class="muted">a simple flow showing the journey from manuscript submission to open-access and kdp publication.</p>
+</div>
+<!-- ========== SECTION: FLOW IMAGE (FIGURE) ========== -->
+<div class="flow">
+  <!-- replace with your actual flowchart image -->
+  <img src="www/papayaflow.webp" alt="papaya publishing workflow diagram">
+</div>
+```
+
+```{=html}
+<!-- ========== SECTION: PROPOSAL SUBMISSION (Google Form embed) ========== -->
+<section id="submit-proposal" style="margin:24px 0;">
+  <style>
+    /* minimal styles (safe even if your page already defines .card/.btn) */
+    #submit-proposal .card{
+      background:#fff; border:1px solid rgba(0,0,0,.06);
+      border-radius:16px; padding:20px; box-shadow:0 12px 28px rgba(0,0,0,.10);
+      max-width: 1000px; margin: 0 auto;
+    }
+    #submit-proposal h2{ margin:0 0 .5rem 0; font-size:1.35rem; }
+    #submit-proposal p{ margin:.25rem 0 1rem; color:#4b5563; }
+    #submit-proposal .form-embed{
+      border-radius:16px; overflow:hidden; border:1px solid rgba(0,0,0,.06);
+      box-shadow:0 8px 20px rgba(0,0,0,.08); background:#fff;
+    }
+    #submit-proposal .btn-row{ display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; }
+    #submit-proposal .btn{
+      display:inline-block; border-radius:999px; padding:12px 18px;
+      background:#634360; color:#fff; text-decoration:none; font-weight:600;
+      box-shadow:0 10px 20px rgba(99,67,96,.25);
+    }
+    #submit-proposal .btn:hover{ filter:brightness(0.97); }
+    /* dark mode friendly */
+    .quarto-dark #submit-proposal .card,
+    .quarto-dark #submit-proposal .form-embed{ background:#14161a; border-color:rgba(255,255,255,.08); }
+    .quarto-dark #submit-proposal p{ color:#c9c9c9; }
+  </style>
+
+  <div class="card">
+    <h2>submit a proposal</h2>
+    <p>Use the form below to submit your book proposal to <strong>PAPAYA</strong>, the publishing division of Statoberry LLP. After you submit, you’ll see a confirmation message and our team will get back to you shortly.</p>
+
+    <div class="form-embed">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScsZH47_PJuvSlraXhE5pmAVwsbR7W5kw8Rj_42-Db5-bMh4w/viewform?embedded=true"
+        width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0"
+        title="Papaya proposal submission form">
+        Loading…
+      </iframe>
+    </div>
+
+    <div class="btn-row">
+      <!-- Fallback direct link (opens in new tab) -->
+      <a class="btn"
+         href="https://docs.google.com/forms/d/e/1FAIpQLScsZH47_PJuvSlraXhE5pmAVwsbR7W5kw8Rj_42-Db5-bMh4w/viewform?usp=sf_link"
+         target="_blank" rel="noopener">
+        open form in new tab
+      </a>
+      <!-- Optional: direct email option -->
+      <a class="btn" href="mailto:papaya@statoberry.com">email us instead</a>
+    </div>
+  </div>
+</section>
+```

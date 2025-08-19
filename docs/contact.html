@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,12 +36,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-42a78ed04eb050c683919f154df6c289.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-bcd829b1351ca68bdf9fbff3a25b7e10.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -111,7 +111,19 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./index.html#product"> 
+<span class="menu-text">Solutions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#services"> 
 <span class="menu-text">Services</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./papaya.html"> 
+<span class="menu-text">Publishing</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./training.html"> 
+<span class="menu-text">Trainings</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -134,10 +146,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Contact</h1></header>
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header">
-
+<h1 class="title display-7">Contact</h1>
 
 </header>
 
@@ -197,9 +209,7 @@ ul.task-list li input[type="checkbox"] {
 
   /* map */
   .map-wrap{ border-radius: 16px; overflow:hidden; box-shadow: var(--shadow); }
-  .map{
-    width:100%; aspect-ratio: 16 / 9; border:0;
-  }
+  .map{ width:100%; aspect-ratio: 16 / 9; border:0; }
 
   /* dark mode */
   .quarto-dark .card, .quarto-dark .contact-hero{ background:#14161a; border-color:rgba(255,255,255,.06); color:#e7e8ea; }
@@ -226,6 +236,10 @@ ul.task-list li input[type="checkbox"] {
       <a class="pill" href="#map" aria-label="view on map">
         <span>📍</span><strong class="accent">view on map</strong>
       </a>
+      <!-- direct google maps link with your exact coordinates -->
+      <a class="pill" href="https://www.google.com/maps?q=8.444145,76.975816&amp;z=16" target="_blank" rel="noopener">
+        <span>🗺️</span><strong>open in google maps</strong>
+      </a>
     </div>
   </div>
 
@@ -244,11 +258,11 @@ ul.task-list li input[type="checkbox"] {
     <h3 class="anchored">email</h3>
     <div class="row">
       <a class="pill" href="mailto:statistician@statoberry.com"><span>✉️</span><strong>statistician@statoberry.com</strong></a>
-      <a class="pill" href="mailto:help@statoberry.com"><span>✉️</span><strong>help@statoberry.com</strong></a>
+      <a class="pill" href="mailto:info@statoberry.com"><span>✉️</span><strong>help@statoberry.com</strong></a>
     </div>
   </div>
 
-  <!-- quick message form (opens your mail app) -->
+  <!-- quick message form (opens your mail app via a generated mailto link) -->
   <div class="card">
     <h3 class="anchored">send a quick message</h3>
     <form class="form" id="contact-form">
@@ -258,31 +272,46 @@ ul.task-list li input[type="checkbox"] {
       <button type="submit" class="btn">send</button>
       <small style="opacity:.8;">submitting opens your email app with a pre-filled message.</small>
     </form>
+    <!-- hidden anchor used to trigger the mail app more reliably -->
+    <a id="mailto-link" href="#" style="display:none;" rel="noopener"></a>
   </div>
 </div>
 
-<!-- map -->
+<!-- map centered on your precise coordinates -->
 <div id="map" class="map-wrap">
-  <iframe class="map" title="statoberry llp on map" src="https://www.google.com/maps?q=Thiruvananthapuram%20Kerala&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  <iframe class="map" title="statoberry llp on map" src="https://www.google.com/maps?q=8.444145,76.975816&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
   </iframe>
 </div>
 
 <script>
-  // simple mailto composer
+  // simple mailto composer with a hidden anchor for better cross-browser behavior
   document.getElementById('contact-form').addEventListener('submit', function(e){
     e.preventDefault();
-    const name = encodeURIComponent(document.getElementById('name').value.trim());
-    const email = encodeURIComponent(document.getElementById('email').value.trim());
-    const msg = encodeURIComponent(document.getElementById('message').value.trim());
 
-    const subject = `New enquiry from ${decodeURIComponent(name)} (${decodeURIComponent(email)})`;
-    const body = `Name: ${decodeURIComponent(name)}%0AEmail: ${decodeURIComponent(email)}%0A%0AMessage:%0A${decodeURIComponent(msg)}`;
+    const nameRaw = document.getElementById('name').value.trim();
+    const emailRaw = document.getElementById('email').value.trim();
+    const msgRaw = document.getElementById('message').value.trim();
 
-    // primary: help@statoberry.com, cc: statistician@
-    const mailto = `mailto:help@statoberry.com?cc=statistician@statoberry.com&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailto;
+    if(!nameRaw || !emailRaw || !msgRaw) return; // guard
+
+    const subject = `New enquiry from ${nameRaw} (${emailRaw})`;
+    const body =
+`Name: ${nameRaw}
+Email: ${emailRaw}
+
+Message:
+${msgRaw}`;
+
+    const mailto = `mailto:info@statoberry.com?cc=statistician@statoberry.com&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    const link = document.getElementById('mailto-link');
+    link.setAttribute('href', mailto);
+
+    // some browsers handle window.location on mailto inconsistently; clicking an <a> is more reliable
+    link.click();
   });
 </script>
+
 
 
 
@@ -513,6 +542,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -623,6 +654,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
