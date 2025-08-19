@@ -1,0 +1,154 @@
+---
+title: "Contact"
+toc: false
+page-layout: full
+---
+
+```{=html}
+<style>
+  :root{
+    --brand:#634360; --brand-100:#f0ddef; --text:#0f172a;
+    --radius:16px; --shadow:0 12px 28px rgba(0,0,0,.10);
+  }
+
+  .contact-hero{
+    border-radius: 24px;
+    background:
+      radial-gradient(900px 420px at 85% -10%, var(--brand-100), transparent 60%),
+      linear-gradient(180deg,#ffffff,#faf7fb 70%,#ffffff);
+    padding: clamp(24px,5vw,56px);
+    margin: 8px 0 24px;
+    box-shadow: var(--shadow);
+  }
+  .contact-hero h1{ margin:0 0 .25rem 0; font-weight:700; letter-spacing:.2px; }
+  .contact-hero p{ margin:0; color:#4b5563; max-width:70ch; }
+
+  .contact-grid{
+    display:grid; gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin: 1rem 0 2rem;
+  }
+  .card{
+    background:#fff; border:1px solid rgba(0,0,0,.06);
+    border-radius: var(--radius); padding:20px; box-shadow: var(--shadow);
+  }
+  .card h3{ margin-top:0; font-size:1.05rem; }
+  .row{ display:flex; flex-direction:column; gap:8px; }
+  .pill{
+    display:inline-flex; align-items:center; gap:10px;
+    border:1px solid rgba(0,0,0,.08); padding:10px 12px; border-radius:999px;
+    text-decoration:none; color:var(--text); background:#fff;
+    transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+  }
+  .pill:hover{ transform: translateY(-2px); box-shadow:0 10px 18px rgba(0,0,0,.10); border-color: rgba(0,0,0,.15);}
+  .pill strong{ letter-spacing:.2px; }
+  .accent{ color: var(--brand); }
+
+  /* form */
+  .form{ display:grid; gap:10px; }
+  .form input, .form textarea{
+    width:100%; border:1px solid rgba(0,0,0,.12); border-radius:12px;
+    padding:12px 14px; font:inherit; outline:none; background:#fff;
+  }
+  .form textarea{ min-height:120px; resize:vertical; }
+  .btn{
+    display:inline-block; border:none; border-radius:999px;
+    padding:12px 18px; background:var(--brand); color:#fff; font-weight:600; cursor:pointer;
+    box-shadow:0 10px 20px rgba(99,67,96,.25);
+  }
+  .btn:hover{ filter:brightness(0.97); }
+
+  /* map */
+  .map-wrap{ border-radius: 16px; overflow:hidden; box-shadow: var(--shadow); }
+  .map{
+    width:100%; aspect-ratio: 16 / 9; border:0;
+  }
+
+  /* dark mode */
+  .quarto-dark .card, .quarto-dark .contact-hero{ background:#14161a; border-color:rgba(255,255,255,.06); color:#e7e8ea; }
+  .quarto-dark .contact-hero p{ color:#c9c9c9; }
+  .quarto-dark .pill{ background:#0f1115; color:#e7e8ea; border-color:rgba(255,255,255,.08); }
+  .quarto-dark .form input, .quarto-dark .form textarea{ background:#0f1115; color:#e7e8ea; border-color:rgba(255,255,255,.08); }
+  .quarto-dark .map-wrap{ box-shadow:none; }
+</style>
+
+<div class="contact-hero">
+  <h1>let’s talk</h1>
+  <p>we’re here to help with demos, collaborations, and support. call, email, or send a quick message using the form below.</p>
+</div>
+
+<div class="contact-grid">
+  <!-- address -->
+  <div class="card">
+    <h3>address</h3>
+    <div class="row">
+      <div>statoberry llp</div>
+      <div>thiruvananthapuram</div>
+      <div>kerala, india</div>
+      <div>695522</div>
+      <a class="pill" href="#map" aria-label="view on map">
+        <span>📍</span><strong class="accent">view on map</strong>
+      </a>
+    </div>
+  </div>
+
+  <!-- call & whatsapp -->
+  <div class="card">
+    <h3>call or chat</h3>
+    <div class="row">
+      <a class="pill" href="tel:+919746919099"><span>☎️</span><strong>+91 9746 919 099</strong></a>
+      <a class="pill" href="tel:+917736807657"><span>☎️</span><strong>+91 7736 807 657</strong></a>
+      <a class="pill" href="https://wa.me/919746919099?text=Hello%20Statoberry" target="_blank" rel="noopener"><span>💬</span><strong class="accent">whatsapp us</strong></a>
+    </div>
+  </div>
+
+  <!-- email -->
+  <div class="card">
+    <h3>email</h3>
+    <div class="row">
+      <a class="pill" href="mailto:statistician@statoberry.com"><span>✉️</span><strong>statistician@statoberry.com</strong></a>
+      <a class="pill" href="mailto:help@statoberry.com"><span>✉️</span><strong>help@statoberry.com</strong></a>
+    </div>
+  </div>
+
+  <!-- quick message form (opens your mail app) -->
+  <div class="card">
+    <h3>send a quick message</h3>
+    <form class="form" id="contact-form">
+      <input type="text" id="name" name="name" placeholder="your name" required>
+      <input type="email" id="email" name="email" placeholder="your email" required>
+      <textarea id="message" name="message" placeholder="your message" required></textarea>
+      <button type="submit" class="btn">send</button>
+      <small style="opacity:.8;">submitting opens your email app with a pre-filled message.</small>
+    </form>
+  </div>
+</div>
+
+<!-- map -->
+<div id="map" class="map-wrap">
+  <iframe
+    class="map"
+    title="statoberry llp on map"
+    src="https://www.google.com/maps?q=Thiruvananthapuram%20Kerala&output=embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+<script>
+  // simple mailto composer
+  document.getElementById('contact-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = encodeURIComponent(document.getElementById('name').value.trim());
+    const email = encodeURIComponent(document.getElementById('email').value.trim());
+    const msg = encodeURIComponent(document.getElementById('message').value.trim());
+
+    const subject = `New enquiry from ${decodeURIComponent(name)} (${decodeURIComponent(email)})`;
+    const body = `Name: ${decodeURIComponent(name)}%0AEmail: ${decodeURIComponent(email)}%0A%0AMessage:%0A${decodeURIComponent(msg)}`;
+
+    // primary: help@statoberry.com, cc: statistician@
+    const mailto = `mailto:help@statoberry.com?cc=statistician@statoberry.com&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailto;
+  });
+</script>
+```  

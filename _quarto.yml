@@ -12,7 +12,7 @@ website:
   site-url: https://www.statoberry.com
   favicon: www/logo.webp
   navbar:
-    background: "#efcef5"
+    # background: "#33194a"
     logo: www/statologo.webp
     logo-alt: "Statoberry"
     pinned: true
@@ -24,6 +24,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About Us
       - text: Services
         href: index.qmd#product
     search: true
@@ -56,7 +58,7 @@ format:
   html:
     theme:
       light:
-        - cosmo
+        - minty
       dark:
         - slate
     css: styles.css

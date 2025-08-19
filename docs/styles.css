@@ -60,3 +60,22 @@ a:hover { text-decoration: underline; }
 pre, code { border-radius: 10px !important; }
 
 /* dark-mode tweaks handled via theme-dark.scss */
+
+/* Default navbar link style */
+.navbar a {
+  color: #ffffff; /* default text color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* On hover */
+.navbar a:hover {
+  color: #fff130; /* change to your preferred hover color */
+}
+
+/* When clicked/active */
+.navbar a:active,
+.navbar a:focus,
+.navbar .active > a {
+  color: #050800; /* change to your preferred active/click color */
+}
