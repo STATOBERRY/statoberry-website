@@ -109,7 +109,7 @@ page-layout: full
     <h3>email</h3>
     <div class="row">
       <a class="pill" href="mailto:statistician@statoberry.com"><span>✉️</span><strong>statistician@statoberry.com</strong></a>
-      <a class="pill" href="mailto:info@statoberry.com"><span>✉️</span><strong>help@statoberry.com</strong></a>
+      <a class="pill" href="mailto:info@statoberry.com"><span>✉️</span><strong>info@statoberry.com</strong></a>
     </div>
   </div>
 
@@ -167,5 +167,4 @@ ${msgRaw}`;
     link.click();
   });
 </script>
-
 ```
