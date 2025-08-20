@@ -575,8 +575,9 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.12);
   <div class="initial-popup-logo">
   <img src="www/statologo.webp" alt="Statoberry LLP Logo" />
   </div>
-  <h2>Join Our Training!</h2>
-  <p>Attend the training and get <strong>free one-month access</strong> to all RAISINS modules</p>
+  <h2>Discover the power of data with hands-on training in R!</h2>
+<p>Guided by our cutting-edge AI platform, <strong>RAISINS</strong> 🚀</p>
+<p><strong>Special Offer:</strong> Get <strong>1 month of FREE access</strong> to all RAISINS modules.</p>
   <div class="initial-popup-close" id="closePopup">Close</div>
   </div>
   </div>
@@ -708,21 +709,21 @@ Leveraging RAISINS for no-code data analysis and visualization</td>
   <div class="section-title">Meet the Trainers</div>
   <div class="trainers-grid">
   <div class="trainer-card">
-  <img src="www/adarsh.png" alt="Dr. Adarsh V S" class="trainer-img">
+  <img src="www/adarsh.webp" alt="Dr. Adarsh V S" class="trainer-img">
   <div class="trainer-name">Dr. Adarsh V S</div>
   <div class="trainer-description">
   Assistant Professor, Department of Agricultural Statistics.
 </div>
   </div>
   <div class="trainer-card">
-  <img src="www/hisham.png" alt="Mohammed Hisham M" class="trainer-img">
+  <img src="www/hisham.webp" alt="Mohammed Hisham M" class="trainer-img">
   <div class="trainer-name">Mohammed Hisham M</div>
   <div class="trainer-description">
   CTO, STATOBERRY LLP
 </div>
   </div>
   <div class="trainer-card">
-  <img src="www/arshidha.png" alt="Arshida A K" class="trainer-img">
+  <img src="www/arshida.webp" alt="Arshida A K" class="trainer-img">
   <div class="trainer-name">Arshida A K</div>
   <div class="trainer-description">
   Data Scientist, STATOBERRY LLP
@@ -736,14 +737,14 @@ Leveraging RAISINS for no-code data analysis and visualization</td>
   <div class="section-title">Invited Speaker</div>
   <div class="trainers-grid">
   <div class="trainer-card">
-  <img src="www/pra.jpg" alt="Dr. Pratheesh P Gopinath" class="trainer-img">
+  <img src="www/pratheesh.webp" alt="Dr. Pratheesh P Gopinath" class="trainer-img">
   <div class="trainer-name">Dr. Pratheesh P Gopinath</div>
   <div class="trainer-description">
   Assistant Professor and Head, Department of Agricultural Statistics, College of Agriculture, Vellayani, Kerala Agricultural University
 </div>
 </div>
   <div class="trainer-card">
-  <img src="www/ranganath.png" alt="Ranganath H K" class="trainer-img">
+  <img src="www/ranganath.webp" alt="Ranganath H K" class="trainer-img">
   <div class="trainer-name">Ranganath H K</div>
   <div class="trainer-description">
   Assistant Professor, University of Agricultural Sciences (UAS), Bangalore
@@ -752,116 +753,6 @@ Leveraging RAISINS for no-code data analysis and visualization</td>
   </div>
   </section>
   
-  <!-- Benefits -->
-  <section class="benefits-section" id="benefits">
-  <div class="section-title">Why Join Our Training?</div>
-  <div class="benefits-list">
-  <div class="benefit-card">
-  <i class="fas fa-laptop-code benefit-icon"></i>
-  <h4>Master R & Statistical Software</h4>
-  <div>Gain hands-on expertise in R and other statistical tools through practical, agriculture-focused exercises.</div>
-  </div>
-  <div class="benefit-card">
-  <i class="fas fa-chart-bar benefit-icon"></i>
-  <h4>Advanced Statistical Techniques</h4>
-  <div>Learn cutting-edge methods like ANOVA, factorial designs, and non-parametric tests for robust data analysis.</div>
-  </div>
-  <div class="benefit-card">
-  <i class="fas fa-certificate benefit-icon"></i>
-  <h4>Professional Certification</h4>
-  <div>Earn a recognized certificate to boost your credentials in agricultural research and data science.</div>
-  </div>
-  <div class="benefit-card">
-  <i class="fas fa-users benefit-icon"></i>
-  <h4>Collaborative Learning Network</h4>
-  <div>Connect with experts and peers to share insights and build a professional community in statistics.</div>
-  </div>
-  </div>
-  </section>
-  
-  <style>
-  .benefits-section {
-    padding: 3rem 2rem;
-  }
-
-.section-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #2b2d42;
-    text-align: center;
-  margin-bottom: 3rem;
-  letter-spacing: 0.6px;
-}
-
-.benefits-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.2rem;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.benefit-card {
-  border-radius: 16px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(68,97,230,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  min-height: 180px;
-}
-
-.benefit-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(68,97,230,0.2);
-}
-
-.benefit-icon {
-  font-size: 2rem;
-  color: #4461e6;
-    margin-bottom: 0.8rem;
-}
-
-.benefit-card h4 {
-  color: #2b2d42;
-    font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 0.6rem;
-}
-
-.benefit-card div {
-  font-size: 0.9rem;
-  color: #455177;
-    line-height: 1.5;
-}
-
-@media (max-width: 880px) {
-  .benefits-list {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-}
-
-@media (max-width: 450px) {
-  .section-title {
-    font-size: 1.8rem;
-  }
-  .benefit-card {
-    padding: 1.2rem;
-    min-height: 160px;
-  }
-  .benefit-icon {
-    font-size: 1.8rem;
-  }
-  .benefit-card h4 {
-    font-size: 1rem;
-  }
-  .benefit-card div {
-    font-size: 0.85rem;
-  }
-}
-</style>
   
    <!-- About Us -->
   <section class="aboutus-section">

@@ -38,7 +38,7 @@ website:
 
   page-footer:
     left: |
-      © 2025 RAISINS by <a href="https://www.statoberry.com/">Statoberry LLP</a><br>
+      © 2025 <a href="https://www.statoberry.com/">Statoberry LLP</a><br>
       <img src="www/statologo.webp" alt="Statoberry Logo" style="height:25px; padding: 5px 10px 5px 10px; margin-bottom: 5px;">
     center:
       - icon: youtube
