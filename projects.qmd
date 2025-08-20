@@ -1,0 +1,161 @@
+---
+title: "AI-Driven Research Platforms"
+page-layout: full
+toc: false
+number-sections: false
+---
+
+```{=html}
+<style>
+:root {
+  --brand:#6A0DAD;
+  --brand-100:#f8f1fb;
+  --text:#0f172a;
+  --radius:16px;
+  --shadow:0 12px 28px rgba(0,0,0,.10);
+}
+.hero {
+  border-radius:24px;
+  padding:clamp(24px,5vw,56px);
+  margin:8px 0 24px;
+  box-shadow:var(--shadow);
+  background: radial-gradient(900px 420px at 85% -10%, var(--brand-100), transparent 60%),
+              linear-gradient(180deg,#ffffff,#faf7fb 70%,#ffffff);
+}
+.hero h1 {
+  margin:0 0 .25rem 0;
+  font-weight:700;
+  letter-spacing:.2px;
+}
+.hero p {
+  margin:0;
+  color:#4b5563;
+  max-width:75ch;
+}
+.btn-row { display:flex; gap:12px; flex-wrap:wrap; margin-top:14px; }
+.btn {
+  display:inline-block; border-radius:999px; padding:12px 18px;
+  background:var(--brand); color:#fff; text-decoration:none; font-weight:600;
+  box-shadow:0 10px 20px rgba(106,13,173,.25);
+}
+.btn--ghost { background:#fff; color:var(--brand); border:1px solid rgba(0,0,0,.08); }
+.btn:hover { filter:brightness(0.97); }
+
+.section { margin: 32px 0; }
+.section h2 { margin: 0 0 12px; font-size: 1.45rem; font-weight:700; }
+
+.grid {
+  display:grid; gap:20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin:1.25rem 0 2rem;
+}
+.card {
+  background:#fff; border:1px solid rgba(0,0,0,.06);
+  border-radius:var(--radius); padding:20px; box-shadow:var(--shadow);
+}
+.card h3 { margin:.25rem 0 .5rem 0; font-size:1.1rem; color:#6A0DAD; }
+.card p { margin:0; color:#374151; }
+
+.project-card {
+  background: linear-gradient(135deg, #faf5ff, #ffffff);
+  border: 2px solid #e5d3ff;
+}
+
+.list {
+  display:grid; gap:12px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.list .item {
+  background:#fff; border:1px solid rgba(0,0,0,.06);
+  border-radius:12px; padding:14px 16px; box-shadow:var(--shadow);
+}
+.item strong { color:#6A0DAD; }
+
+.cta-bottom {
+  background: linear-gradient(135deg,#faf5ff,#fdfdfd);
+  padding:2.2rem 1rem; text-align:center; margin-top:2.2rem;
+  border-top:2px solid #eee; border-radius:16px;
+}
+.cta-bottom p { font-size:1.2rem; font-weight:500; margin:.5rem 0 1rem; }
+.cta-bottom strong { color:#6A0DAD; }
+
+.quarto-dark .hero, .quarto-dark .card, .quarto-dark .item, .quarto-dark .cta-bottom {
+  background:#14161a; border-color:rgba(255,255,255,.06); color:#e7e8ea;
+}
+.quarto-dark .hero p { color:#c9c9c9; }
+.quarto-dark .btn--ghost { background:#0f1115; color:#e7e8ea; border-color:rgba(255,255,255,.08); }
+.quarto-dark .project-card { background: linear-gradient(135deg, #1a1a2e, #16213e); }
+</style>
+```
+
+<!-- ========== HERO ========== -->
+:::: hero
+# AI-driven research platforms
+
+Custom platforms for agricultural traceability, data consultancy, and analytics solutions for academia and industry.
+
+::: btn-row
+[Discuss Your Project](mailto:info@statoberry.com){.btn}
+[Contact Us](contact.html){.btn .btn--ghost}
+:::
+::::
+
+<!-- ========== WHAT WE BUILD ========== -->
+:::: section
+## What We Build
+
+::: list
+:::: item
+**Research Platforms**  
+Complete web platforms with integrated AI tools and data management systems.
+::::
+
+:::: item
+**Agricultural Solutions**  
+Farm planning, traceability systems, and agricultural analytics platforms.
+::::
+
+:::: item
+**Custom Analytics**  
+Database management, automated reporting, and data visualization tools.
+::::
+:::
+::::
+
+<!-- ========== OUR PROJECTS ========== -->
+:::: section
+## Recent Projects
+
+::: grid
+:::: {.card .project-card}
+### COCOON - Farm Planning
+AI-based farm plan calculation software developed in collaboration with Kerala Agricultural University. Automates complex agricultural planning decisions.
+::::
+
+:::: {.card .project-card}
+### ICAR-DCR Platform
+Complete web platform with integrated Telegram bot and web chatbot for ICAR-DCR Puttur, including deployment and ongoing support services.
+::::
+
+:::: {.card .project-card}
+### RUBUS - Report System
+Monthly report generation and database management system for College of Agriculture, Vellayani, KAU. Streamlines administrative workflows.
+::::
+:::
+::::
+
+<!-- ========== HOW WE WORK ========== -->
+:::: section
+## Our Approach
+
+We collaborate closely with research institutions and organizations to build custom platforms that solve real problems and integrate seamlessly with existing workflows.
+::::
+
+:::: cta-bottom
+Need a custom **research platform** for your institution?
+
+::: {.btn-row style="justify-content:center;"}
+[Start Your Project](mailto:info@statoberry.com){.btn}
+[Contact Us](contact.html){.btn}
+:::
+::::

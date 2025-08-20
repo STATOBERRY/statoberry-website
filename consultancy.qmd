@@ -58,7 +58,7 @@ description: "Tailored analytics, AI solutions, and research support for agricul
     <a class="btn btn--ghost" href="mailto:help@statoberry.com">email us</a>
   </div>
 </div>
-```  
+```
 
 ```{=html}
 <!-- WHAT WE DO -->
@@ -93,7 +93,8 @@ description: "Tailored analytics, AI solutions, and research support for agricul
 <div class="btn-row">
   <a class="btn" href="/contact.html">talk to a consultant</a>
 </div>
-```  
+```
+
 ```{=html}
 <!-- HOW WE WORK -->
 <div class="section"><h2>how we work</h2></div>
@@ -124,9 +125,9 @@ description: "Tailored analytics, AI solutions, and research support for agricul
   <a class="btn" href="/contact.html">get a proposal</a>
   <span class="muted">prefer email? write to <a href="mailto:help@statoberry.com">help@statoberry.com</a>.</span>
 </div>
-```  
+```
 
-```{=html}  
+```{=html}
 <!-- ENGAGEMENT OPTIONS -->
 <div class="section"><h2>engagement options</h2></div>
 <div class="grid">
@@ -148,4 +149,4 @@ description: "Tailored analytics, AI solutions, and research support for agricul
   <a class="btn" href="/contact.html">contact us</a>
   <a class="btn btn--ghost" href="/">back to home</a>
 </div>
-```  
+```

@@ -141,7 +141,7 @@ Our Vision at Statoberry LLP is to make data science in agriculture simple, acce
 
   <div class="team-card">
     <div class="team-photo">
-      <img src="www/jithin.jpg" alt="Jithin Chandran">
+      <img src="www/jithin.webp" alt="Jithin Chandran">
     </div>
     <div class="team-name">Jithin Chandran</div>
     <div class="team-role">Data Scientist</div>
