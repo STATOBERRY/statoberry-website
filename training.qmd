@@ -57,7 +57,7 @@ toc: false
   gap: 8px;
   padding: 12px 24px;
   border-radius: 999px;
-  background: #007bff;
+  background: #28a745;
     color: white;
   text-decoration: none;
   font-weight: 600;
@@ -70,7 +70,8 @@ toc: false
   transition: transform 0.3s ease-in-out, margin-left 0.3s ease-in-out;
 }
 .register-btn:hover {
-  background: #28a745;
+  background:  #f7fc88;
+  color: #000;
 }
 .register-btn:hover .arrow {
   transform: translateX(10px);
@@ -747,7 +748,7 @@ Leveraging RAISINS for no-code data analysis and visualization</td>
   <img src="www/ranganath.webp" alt="Ranganath H K" class="trainer-img">
   <div class="trainer-name">Ranganath H K</div>
   <div class="trainer-description">
-  Assistant Professor, University of Agricultural Sciences (UAS), Bangalore
+  Assistant Professor, Agricultural Statistics, University of Agricultural Sciences (UAS), Bangalore
 </div>
   </div>
   </div>
@@ -778,6 +779,16 @@ At Statoberry LLP, we blend statistical expertise with cutting-edge technology t
   </div>
   </section>
   
+  <!-- Logo Scroll (above FAQs) -->
+<marquee behavior="scroll" direction="left" scrollamount="7" style="margin-top: 1rem;">
+  <img src="www/poweredby.png" alt="poweredby:" height="60" style="margin: 0 1em;">
+  <img src="www/agtech.png" alt="kauagtech" height="60" style="margin: 0 1em;">
+  <img src="www/kaulogo.png" alt="KAU" height="60" style="margin: 0 1em;">
+  <img src="www/nabardlogo.png" alt="NABARD" height="60" style="margin: 0 1em;">
+  <img src="www/ksumlogo.png" alt="WSU" height="60" style="margin: 0 1em;">
+</marquee>
+
+
   <!-- FAQs -->
   <section class="faq-section" id="faq">
   <div class="section-title">Frequently Asked Questions</div>
@@ -816,6 +827,8 @@ document.querySelectorAll('.faq-item').forEach(function(item) {
     }
   });
 });
+
+
 
 // Schedule calendar popup
 const modal = document.getElementById("popupModal");
