@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./intro.html" aria-current="page"> 
+    <a class="nav-link" href="./intro.html"> 
 <span class="menu-text">About Us</span></a>
   </li>  
   <li class="nav-item">
@@ -146,224 +146,144 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">AI Wrappers</h1></header>
+
+<header id="title-block-header">
 
 
+</header>
 
 
-<section id="about-statoberry-llp" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="about-statoberry-llp">About Statoberry LLP</h2>
-<p>Statoberry LLP, founded by a passionate group of statisticians, is redefining the way agricultural research engages with data science. We are a forward-thinking analytics firm with a vision to transform complex datasets into insights that are approachable, meaningful, and true to our name a little bit sweet.</p>
-<p>Our journey is deeply rooted in academia and innovation. Statoberry is proudly mentored by the Department of Agricultural Statistics at Kerala Agricultural University (KAU), ensuring a strong foundation in scientific rigor and relevance. We have been incubated under the AgTech Launchpad, a joint initiative of NABARD, KAU, and Western Sydney University, Australia (WSU), which has empowered us to refine our ideas and bring them closer to real-world application. As a recognized startup under the Kerala Startup Mission, we continue to scale our solutions with the guidance, support, and ecosystem provided by the state’s premier innovation framework.</p>
-<p>At Statoberry LLP, we blend statistical expertise with cutting-edge technology to build platforms, APIs, and tools that support agricultural research, precision farming, and farmer–consumer connectivity. Our work reflects a single belief: that data science, when made simple and accessible, has the power to transform agriculture and create lasting impact.</p>
-<section id="our-mission" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="our-mission">Our Mission</h3>
-<p>We empower researchers, educators, and agricultural professionals with intelligent, user-friendly tools. Through AI-powered platforms and cutting-edge APIs, we simplify analytics so that every decision—from the research lab to the field can be evidence-based and impactful.</p>
-</section>
-<section id="our-vision" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="our-vision">Our Vision</h3>
-<p>Our Vision at Statoberry LLP is to make data science in agriculture simple, accessible, and impactful by transforming complex data into actionable insights. We aspire to empower researchers with intuitive tools, support farmers with secure and transparent platforms, and advance agri-technology through intelligent APIs and precision solutions all while bridging academia and innovation to create a future where agriculture is sustainable, connected, and data-driven.</p>
-</section>
-<section id="what-we-do" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="what-we-do">What We Do</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Services</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Online Analytics Platform</strong></td>
-<td>An intuitive, no-code environment blending R, Python, and AI for rapid analysis in agricultural science. <a href="www.raisins.live">RAISINS</a></td>
-</tr>
-<tr class="even">
-<td><strong>Robotics &amp; Precision Farming APIs</strong></td>
-<td>High-performance, vision-enabled APIs that integrate seamlessly with agricultural robotics and automation systems.</td>
-</tr>
-<tr class="odd">
-<td><strong>KissanFinder.com</strong></td>
-<td>A secure, encrypted platform connecting farmers directly to consumers—ensuring transparency, trust, and traceable produce.</td>
-</tr>
-<tr class="even">
-<td><strong>Custom Bots &amp; Assistants</strong></td>
-<td>AI assistants that guide research workflows, provide data support, and streamline tasks.</td>
-</tr>
-<tr class="odd">
-<td><strong>Site &amp; App Development</strong></td>
-<td>Beautiful, fast, and responsive websites and dashboards to showcase your labs, datasets, tools, and services.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="why-were-different" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="why-were-different">Why We’re Different</h3>
-<ul>
-<li><strong>Simplicity with Strength</strong> — We make advanced analytics feel effortless—but let you dig deeper when you need to.</li>
-<li><strong>Built for AgTech &amp; Research</strong> — All our tools are tailored to real-world agricultural workflows.</li>
-<li><strong>Designed to Inspire</strong> — We believe great tools can be beautiful and intuitive—and delivered with a touch of delight.</li>
-</ul>
-</section>
-<section id="meet-the-team" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="meet-the-team">Meet the Team</h3>
 <style>
-  .team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 24px;
-    margin: 2rem 0;
-  }
+:root {
+  --brand:#6A0DAD;
+  --brand-100:#f8f1fb;
+  --text:#0f172a;
+  --radius:16px;
+  --shadow:0 12px 28px rgba(0,0,0,.10);
+}
+.hero {
+  border-radius:24px;
+  padding:clamp(24px,5vw,56px);
+  margin:8px 0 24px;
+  box-shadow:var(--shadow);
+  background: radial-gradient(900px 420px at 85% -10%, var(--brand-100), transparent 60%),
+              linear-gradient(180deg,#ffffff,#faf7fb 70%,#ffffff);
+}
+.hero h1 {
+  margin:0 0 .25rem 0;
+  font-weight:700;
+  letter-spacing:.2px;
+}
+.hero p {
+  margin:0;
+  color:#4b5563;
+  max-width:75ch;
+}
+.btn-row { display:flex; gap:12px; flex-wrap:wrap; margin-top:14px; }
+.btn {
+  display:inline-block; border-radius:999px; padding:12px 18px;
+  background:var(--brand); color:#fff; text-decoration:none; font-weight:600;
+  box-shadow:0 10px 20px rgba(106,13,173,.25);
+}
+.btn--ghost { background:#fff; color:var(--brand); border:1px solid rgba(0,0,0,.08); }
+.btn:hover { filter:brightness(0.97); }
 
-  .team-card {
-    background: #fff;
-    border-radius: 16px;
-    border: 1px solid rgba(0,0,0,0.06);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
-    padding: 20px;
-    text-align: center;
-    transition: transform .2s ease, box-shadow .2s ease;
-  }
-  .team-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.10);
-  }
+.section { margin: 32px 0; }
+.section h2 { margin: 0 0 12px; font-size: 1.45rem; font-weight:700; }
 
-  .team-photo {
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f0ddef; /* brand tint */
-  }
-  .team-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.grid {
+  display:grid; gap:20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin:1.25rem 0 2rem;
+}
+.card {
+  background:#fff; border:1px solid rgba(0,0,0,.06);
+  border-radius:var(--radius); padding:20px; box-shadow:var(--shadow);
+}
+.card h3 { margin:.25rem 0 .5rem 0; font-size:1.1rem; color:#6A0DAD; }
+.card p { margin:0; color:#374151; }
 
-  .team-name {
-    font-weight: 600;
-    margin: 4px 0;
-    font-size: 1.1rem;
-  }
+.example-card {
+  background: linear-gradient(135deg, #faf5ff, #ffffff);
+  border: 2px solid #e5d3ff;
+}
 
-  .team-role {
-    font-size: 0.9rem;
-    color: #634360; /* brand purple */
-    margin-bottom: 8px;
-  }
+.list {
+  display:grid; gap:12px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.list .item {
+  background:#fff; border:1px solid rgba(0,0,0,.06);
+  border-radius:12px; padding:14px 16px; box-shadow:var(--shadow);
+}
+.item strong { color:#6A0DAD; }
 
-  .team-desc {
-    font-size: 0.9rem;
-    color: #444;
-    line-height: 1.4;
-  }
+.cta-bottom {
+  background: linear-gradient(135deg,#faf5ff,#fdfdfd);
+  padding:2.2rem 1rem; text-align:center; margin-top:2.2rem;
+  border-top:2px solid #eee; border-radius:16px;
+}
+.cta-bottom p { font-size:1.2rem; font-weight:500; margin:.5rem 0 1rem; }
+.cta-bottom strong { color:#6A0DAD; }
 
-  /* dark mode */
-  .quarto-dark .team-card {
-    background: #14161a;
-    border-color: rgba(255,255,255,.06);
-  }
-  .quarto-dark .team-role { color: #c6a8c2; }
-  .quarto-dark .team-desc { color: #ccc; }
+.quarto-dark .hero, .quarto-dark .card, .quarto-dark .item, .quarto-dark .cta-bottom {
+  background:#14161a; border-color:rgba(255,255,255,.06); color:#e7e8ea;
+}
+.quarto-dark .hero p { color:#c9c9c9; }
+.quarto-dark .btn--ghost { background:#0f1115; color:#e7e8ea; border-color:rgba(255,255,255,.08); }
+.quarto-dark .example-card { background: linear-gradient(135deg, #1a1a2e, #16213e); }
 </style>
-
-<div class="team-grid">
-
-  <div class="team-card">
-    <div class="team-photo">
-      <img src="www/hisham.webp" alt="Mohammed Hisham M">
-    </div>
-    <div class="team-name">Mohammed Hisham M</div>
-    <div class="team-role">CTO &amp; Co-Founder</div>
-    <div class="team-desc">
-     PhD student in Agricultural Statistics, specializing in statistical modeling, no code platforms, and research application development.
-    </div>
-  </div>    
-  
-  <div class="team-card">
-    <div class="team-photo">
-      <img src="www/gopika.webp" alt="Gopika">
-    </div>
-    <div class="team-name">Adv. Gopika P Gopinath</div>
-    <div class="team-role">Co-Founder</div>
-    <div class="team-desc">
-     MCA graduate and advocate overseeing administration, compliance, and operational management.
-    </div>
-  </div> 
-  
-    <div class="team-card">
-    <div class="team-photo">
-      <img src="www/arshida.webp" alt="Arshida A.K.">
-    </div>
-    <div class="team-name">Arshida A.K.</div>
-    <div class="team-role">Senior Data Scientist</div>
-    <div class="team-desc">
-      Senior Data Scientist developing no-code AI platforms for agricultural research and designing production grade applications.
-    </div>
-  </div>
-
-  <div class="team-card">
-    <div class="team-photo">
-      <img src="www/jithin.jpg" alt="Jithin Chandran">
-    </div>
-    <div class="team-name">Jithin Chandran</div>
-    <div class="team-role">Data Scientist</div>
-    <div class="team-desc">
-     Data Scientist focusing on backend systems, automation, and cloud integration for Statoberry’s research products.
-    </div>
-  </div>
-
-  <div class="team-card">
-    <div class="team-photo">
-      <img src="www/parthan.webp" alt="Parthan Ravi">
-    </div>
-    <div class="team-name">Parthan Ravi</div>
-    <div class="team-role">Digital Marketing Lead</div>
-    <div class="team-desc">
-     Digital Marketing Lead managing outreach and social media; agriculture graduate and YouTuber with an audience of 80k+.
-    </div>
-  </div>  
-  
-<div class="team-card">
-    <div class="team-photo">
-      <img src="www/adarsh.webp" alt="Adarsh V.S.">
-    </div>
-    <div class="team-name">Dr Adarsh V. S.</div>
-    <div class="team-role">QA strategist</div>
-    <div class="team-desc">
-     Assistant Professor of Agricultural Statistics and QA Strategist, ensuring methodological soundness, statistical rigor, and quality assurance in Statoberry’s research platforms.
-    </div>
-  </div> 
-  
- <div class="team-card">
-    <div class="team-photo">
-      <img src="www/pratheesh.webp" alt="Pratheesh">
-    </div>
-    <div class="team-name">Dr Pratheesh P Gopinath</div>
-    <div class="team-role">Mentor</div>
-    <div class="team-desc">
-     Head of the Department of Agricultural Statistics, KAU; provides guidance on theory, research methodology, and academic rigor. The backbone of Statoberry, ensuring scientific depth and credibility.
-    </div>
-  </div>  
-  
-  
+<!-- ========== HERO ========== -->
+<section id="custom-ai-wrappers-for-your-needs" class="level1 hero">
+<h1>Custom AI wrappers for your needs</h1>
+<p>We transform complex AI models into simple, user-friendly tools tailored specifically for your requirements.</p>
+<div class="btn-row">
+<p><a href="mailto:info@statoberry.com" class="btn">Request Custom Tool</a> <a href="contact.html" class="btn btn--ghost">Contact Us</a></p>
 </div>
 </section>
-<section id="want-to-learn-more" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="want-to-learn-more">Want to Learn More?</h3>
-<p><a href="./contact.html">Contact us</a> for demos, project inquiries, or collaborations.</p>
-<hr>
-<p><em>Statoberry LLP - sweet, simple, and powerful data science for agriculture.</em></p>
+<!-- ========== WHAT WE DO ========== -->
+<section id="what-we-build" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-build">What We Build</h2>
+<div class="list">
+<div class="item">
+<p><strong>Custom Solutions</strong><br>
+Built specifically for your workflow and requirements.</p>
+</div>
+<div class="item">
+<p><strong>Simple Interface</strong><br>
+Complex AI made easy to use for everyone on your team.</p>
+</div>
+<div class="item">
+<p><strong>Your Data, Your Rules</strong><br>
+Secure, private tools that work exactly how you need them.</p>
+</div>
+</div>
+</section>
+<!-- ========== EXAMPLE ========== -->
+<section id="cabbage" class="level2">
+<h2 class="anchored" data-anchor-id="cabbage">CABBAGE</h2>
+<div class="grid">
+<section id="citation-builder" class="level3 card example-card">
+<h3 class="anchored" data-anchor-id="citation-builder">Citation Builder</h3>
+<p>We built CABBAGE for Kerala Agricultural University students to automatically format references according to their specific style requirements. It handles KAU, APA, and Harvard formats, saving hours of manual work.</p>
+<p><em>This shows how we can solve your unique challenges with custom AI tools.</em></p>
+</section>
+</div>
+</section>
+<!-- ========== HOW IT WORKS ========== -->
+<section id="how-it-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-works">How It Works</h2>
+<p>Tell us about your repetitive tasks or complex processes. We’ll build a custom AI wrapper that handles the heavy lifting while you focus on what matters most.</p>
+</section>
+<div class="cta-bottom">
+<p>Have a specific need? Let’s build something <strong>custom for you</strong>.</p>
+<div class="btn-row" style="justify-content:center;">
+<p><a href="mailto:info@statoberry.com" class="btn">Discuss Your Project</a> <a href="contact.html" class="btn">Contact Us</a></p>
+</div>
+</div>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

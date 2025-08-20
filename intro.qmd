@@ -22,7 +22,7 @@ Our Vision at Statoberry LLP is to make data science in agriculture simple, acce
 ### What We Do {.unnumbered}
 
 | Services | Description |
-|------------------------------|------------------------------------------|
+|------------------------------------|------------------------------------|
 | **Online Analytics Platform** | An intuitive, no-code environment blending R, Python, and AI for rapid analysis in agricultural science. [RAISINS](www.raisins.live) |
 | **Robotics & Precision Farming APIs** | High-performance, vision-enabled APIs that integrate seamlessly with agricultural robotics and automation systems. |
 | **KissanFinder.com** | A secure, encrypted platform connecting farmers directly to consumers—ensuring transparency, trust, and traceable produce. |
@@ -108,18 +108,18 @@ Our Vision at Statoberry LLP is to make data science in agriculture simple, acce
 
   <div class="team-card">
     <div class="team-photo">
-      <img src="www/hisham.jpg" alt="Mohammed Hisham M">
+      <img src="www/hisham.webp" alt="Mohammed Hisham M">
     </div>
     <div class="team-name">Mohammed Hisham M</div>
     <div class="team-role">CTO & Co-Founder</div>
     <div class="team-desc">
-     PhD student in Agricultural Statistics, specializing in statistical modeling, no-code platforms, and research application development.
+     PhD student in Agricultural Statistics, specializing in statistical modeling, no code platforms, and research application development.
     </div>
   </div>    
   
   <div class="team-card">
     <div class="team-photo">
-      <img src="www/gopika.jpg" alt="Gopika">
+      <img src="www/gopika.webp" alt="Gopika">
     </div>
     <div class="team-name">Adv. Gopika P Gopinath</div>
     <div class="team-role">Co-Founder</div>
@@ -130,12 +130,12 @@ Our Vision at Statoberry LLP is to make data science in agriculture simple, acce
   
     <div class="team-card">
     <div class="team-photo">
-      <img src="www/member4.jpg" alt="Arshida A.K.">
+      <img src="www/arshida.webp" alt="Arshida A.K.">
     </div>
     <div class="team-name">Arshida A.K.</div>
     <div class="team-role">Senior Data Scientist</div>
     <div class="team-desc">
-      Senior Data Scientist developing no-code AI platforms for agricultural research and designing production-grade applications.
+      Senior Data Scientist developing no-code AI platforms for agricultural research and designing production grade applications.
     </div>
   </div>
 
@@ -152,18 +152,18 @@ Our Vision at Statoberry LLP is to make data science in agriculture simple, acce
 
   <div class="team-card">
     <div class="team-photo">
-      <img src="www/member6.jpg" alt="Parthan Ravi">
+      <img src="www/parthan.webp" alt="Parthan Ravi">
     </div>
     <div class="team-name">Parthan Ravi</div>
     <div class="team-role">Digital Marketing Lead</div>
     <div class="team-desc">
-     Digital Marketing Lead managing outreach and social media; agriculture graduate and YouTuber with an audience of 80k+ followers.
+     Digital Marketing Lead managing outreach and social media; agriculture graduate and YouTuber with an audience of 80k+.
     </div>
   </div>  
   
 <div class="team-card">
     <div class="team-photo">
-      <img src="www/member4.jpg" alt="Adarsh V.S.">
+      <img src="www/adarsh.webp" alt="Adarsh V.S.">
     </div>
     <div class="team-name">Dr Adarsh V. S.</div>
     <div class="team-role">QA strategist</div>
@@ -174,7 +174,7 @@ Our Vision at Statoberry LLP is to make data science in agriculture simple, acce
   
  <div class="team-card">
     <div class="team-photo">
-      <img src="www/member4.jpg" alt="Pratheesh">
+      <img src="www/pratheesh.webp" alt="Pratheesh">
     </div>
     <div class="team-name">Dr Pratheesh P Gopinath</div>
     <div class="team-role">Mentor</div>
@@ -193,4 +193,4 @@ Our Vision at Statoberry LLP is to make data science in agriculture simple, acce
 
 ------------------------------------------------------------------------
 
-*Statoberry LLP — sweet, simple, and powerful data science for agriculture.*
+*Statoberry LLP - sweet, simple, and powerful data science for agriculture.*

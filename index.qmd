@@ -136,12 +136,12 @@ toc: false
   <a class="sb-product" href="kissan.html">
     <img src="www/kissan.webp" alt="KissanFinder">
     <div class="sb-product__desc">
-      Encrypted farmer–consumer traceability and connections.
+      Encrypted farmer consumer traceability and connections.
     </div>
   </a>
 
   <!-- Bots -->
-  <a class="sb-product" href="bots.html">
+  <a class="sb-product" href="chatbot.html">
     <img src="www/bot.webp" alt="Bots">
     <div class="sb-product__desc">
       Custom AI assistants for workshops, conferences and research workflows.
@@ -160,7 +160,7 @@ toc: false
   <a class="sb-product" href="wrappers.html">
     <img src="www/wrapper.webp" alt="Wrappers">
     <div class="sb-product__desc">
-      AI wrappers streamline complex models into easy-to-use tools, tailored for specific research and business needs.
+      AI wrappers streamline complex models into easy to-use tools, tailored for specific research and business needs.
     </div>
   </a>
 

@@ -71,36 +71,36 @@ page-layout: full
 </style>
 
 <div class="contact-hero">
-  <h1>let’s talk</h1>
-  <p>we’re here to help with demos, collaborations, and support. call, email, or send a quick message using the form below.</p>
+  <h1>Let’s talk</h1>
+  <p>We’re here to help with demos, collaborations, and support. call, email, or send a quick message using the form below.</p>
 </div>
 
 <div class="contact-grid">
   <!-- address -->
   <div class="card">
-    <h3>address</h3>
+    <h3>Address</h3>
     <div class="row">
-      <div>statoberry llp</div>
-      <div>thiruvananthapuram</div>
-      <div>kerala, india</div>
+      <div>Statoberry llp</div>
+      <div>Thiruvananthapuram</div>
+      <div>Kerala, India</div>
       <div>695522</div>
       <a class="pill" href="#map" aria-label="view on map">
-        <span>📍</span><strong class="accent">view on map</strong>
+        <span>📍</span><strong class="accent">View on map</strong>
       </a>
       <!-- direct google maps link with your exact coordinates -->
       <a class="pill" href="https://www.google.com/maps?q=8.444145,76.975816&z=16" target="_blank" rel="noopener">
-        <span>🗺️</span><strong>open in google maps</strong>
+        <span>🗺️</span><strong>Open in google maps</strong>
       </a>
     </div>
   </div>
 
   <!-- call & whatsapp -->
   <div class="card">
-    <h3>call or chat</h3>
+    <h3>Call or Chat</h3>
     <div class="row">
       <a class="pill" href="tel:+919746919099"><span>☎️</span><strong>+91 9746 919 099</strong></a>
       <a class="pill" href="tel:+917736807657"><span>☎️</span><strong>+91 7736 807 657</strong></a>
-      <a class="pill" href="https://wa.me/919746919099?text=Hello%20Statoberry" target="_blank" rel="noopener"><span>💬</span><strong class="accent">whatsapp us</strong></a>
+      <a class="pill" href="https://wa.me/919746919099?text=Hello%20Statoberry" target="_blank" rel="noopener"><span>💬</span><strong class="accent">Whatsapp us</strong></a>
     </div>
   </div>
 
@@ -115,13 +115,13 @@ page-layout: full
 
   <!-- quick message form (opens your mail app via a generated mailto link) -->
   <div class="card">
-    <h3>send a quick message</h3>
+    <h3>Send a quick message</h3>
     <form class="form" id="contact-form">
       <input type="text" id="name" name="name" placeholder="your name" required>
       <input type="email" id="email" name="email" placeholder="your email" required>
       <textarea id="message" name="message" placeholder="your message" required></textarea>
       <button type="submit" class="btn">send</button>
-      <small style="opacity:.8;">submitting opens your email app with a pre-filled message.</small>
+      <small style="opacity:.8;">Submitting opens your email app with a pre filled message.</small>
     </form>
     <!-- hidden anchor used to trigger the mail app more reliably -->
     <a id="mailto-link" href="#" style="display:none;" rel="noopener"></a>
