@@ -623,25 +623,25 @@ Creating experimental layouts in R and RAISINS<br>
 Analysis of experimental data and interpretation of results</td>
 </tr>
 <tr>
-<td>Day 3<br><span style="font-size:0.98rem">Multivariate</span></td>
+<td>Day 3<br><span style="font-size:0.98rem">Relationships</span></td>
+<td><strong>Statistical Relationships and Modelling</strong><br>
+Descriptive statistics and data summarization<br>
+Correlation and regression analysis (simple and multiple)<br>
+Introduction to logistic regression and interpretation in research contexts</td>
+</tr>
+<tr>
+<td>Day 4<br><span style="font-size:0.98rem">Multivariate</span></td>
 <td><strong>Multivariate Exploratory Techniques</strong><br>
 Introduction to exploratory data analysis in agriculture and allied fields<br>
 Principal Component Analysis (PCA): concepts and applications<br>
 Cluster analysis and factor analysis: grouping and latent variable discovery</td>
 </tr>
 <tr>
-<td>Day 4<br><span style="font-size:0.98rem">Advanced Designs</span></td>
+<td>Day 5<br><span style="font-size:0.98rem">Relationships</span></td>
 <td><strong>Advanced Designs in Agricultural Research</strong><br>
 Factorial experiments: concepts, layout, and interpretation<br>
 Split-plot and strip-plot designs: when and how to use them<br>
 Practical demonstrations with real datasets</td>
-</tr>
-<tr>
-<td>Day 5<br><span style="font-size:0.98rem">Relationships</span></td>
-<td><strong>Statistical Relationships and Modelling</strong><br>
-Descriptive statistics and data summarization<br>
-Correlation and regression analysis (simple and multiple)<br>
-Introduction to logistic regression and interpretation in research contexts</td>
 </tr>
 <tr>
 <td>Day 6<br><span style="font-size:0.98rem">Genetics</span></td>
@@ -670,9 +670,9 @@ Leveraging RAISINS for no-code data analysis and visualization</td>
 <span>14</span> <span>15</span> <span>16</span> <span>17</span> <span>18</span> <span>19</span>
 <span class="cal-cell active" data-day="Day 1" data-topic="Getting Started with R and RAISINS">20</span>
 <span class="cal-cell active" data-day="Day 2" data-topic="Foundations of Experimental Design and Analysis">21</span>
-<span class="cal-cell active" data-day="Day 3" data-topic="Multivariate Exploratory Techniques">22</span>
-<span class="cal-cell active" data-day="Day 4" data-topic="Advanced Designs in Agricultural Research">23</span>
-<span class="cal-cell active" data-day="Day 5" data-topic="Statistical Relationships and Modelling">24</span>
+<span class="cal-cell active" data-day="Day 3" data-topic="Statistical Relationships and Modelling">22</span>
+<span class="cal-cell active" data-day="Day 4" data-topic="Multivariate Exploratory Techniques">23</span>
+<span class="cal-cell active" data-day="Day 5" data-topic="Advanced Designs in Agricultural Research">24</span>
 <span class="cal-cell active" data-day="Day 6" data-topic="Statistical Genetics and Advanced Techniques">25</span>
 <span class="cal-cell active" data-day="Day 7" data-topic="Data Visualization and No-Code Analytics">26</span>
 <span>27</span> <span>28</span> <span>29</span> <span>30</span>
