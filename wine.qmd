@@ -1,0 +1,177 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+```{=html}
+<section id="wine-intro" style="margin: 48px 0;">
+  <style>
+   .wine-card {
+      max-width: 880px;
+      margin: 0 auto;
+      border-radius: 22px;
+      overflow: hidden;
+      background: linear-gradient(135deg, #fdfbfb 0%, #f0ddef 100%);
+      box-shadow: 0 10px 28px rgba(0,0,0,.08);
+      transition: transform .28s ease, box-shadow .28s ease;
+      text-align: center;
+    }
+    .wine-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 36px rgba(0,0,0,.15);
+    }
+    .wine-header {
+      padding: 1.8rem 1.5rem 1rem;
+    }
+    .wine-header h1 {
+      margin: 0;
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #472c44;
+      letter-spacing: .5px;
+    }
+    .wine-body {
+      padding: 0 2rem 2.2rem;
+    }
+    .wine-body p {
+      margin: 0 auto 1.1rem;
+      max-width: 64ch;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #374151;
+    }
+    .wine-body strong {
+      color: #634360; /* plum accent */
+    }
+    .wine-body em {
+      color: #4461e6; /* blue accent */
+    }
+    .wine-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 12px 26px;
+      border-radius: 999px;
+      background: #634360;
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(99,67,96,.25);
+      transition: all 0.3s ease;
+    }
+    .wine-btn:hover {
+      background: #472c44;
+      transform: translateY(-2px);
+    }
+    /* Dark mode */
+    .quarto-dark .wine-card {
+      background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+    }
+    .quarto-dark .wine-header h1 {
+      color: #f3f4f6;
+    }
+    .quarto-dark .wine-body p {
+      color: #d1d5db;
+    }
+    .quarto-dark .wine-body strong {
+      color: #e5c2ec;
+    }
+  </style>
+
+  <div class="wine-card">
+    <div class="wine-header">
+    </div>
+    <div class="wine-body">
+      <p>
+        <strong>WINE (Web-based Interactive Network for Education)</strong> is a modern learning hub from 
+        <strong>Statoberry LLP</strong> in association with the 
+        <strong>Department of Agricultural Statistics, KAU</strong>.  
+        It blends training modules, exercises, and resources into one simple platform.
+        so you can <strong>revisit, practise, and master data science concepts anytime</strong>.
+      </p>
+      <br>
+      <p>
+        Designed for students, researchers, and professionals, WINE keeps learning 
+        <strong>interactive, engaging, and accessible</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ========== SINGLE TILE ========== -->
+<section id="wine-tiles" style="margin: 48px 0;">
+  <style>
+    #wine-tiles {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+    .tile {
+      display: flex;
+      flex-direction: column;
+      width: 240px;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,.08);
+      text-decoration: none;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+    .tile:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 10px 28px rgba(0,0,0,.18);
+    }
+    .tile img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      display: block;
+      transition: transform .35s ease;
+    }
+    .tile:hover img {
+      transform: scale(1.05);
+    }
+    .tile-body {
+      padding: 12px 14px 16px;
+      text-align: center;
+    }
+    .tile-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #2d2f36;
+      margin: 0 0 6px;
+    }
+    .tile-sub {
+      font-size: .85rem;
+      color: #555;
+      margin: 0;
+      line-height: 1.4;
+    }
+    /* Dark mode */
+    .quarto-dark .tile {
+      background: #1f2937;
+      box-shadow: 0 6px 18px rgba(0,0,0,.6);
+    }
+    .quarto-dark .tile-title { color: #f3f4f6; }
+    .quarto-dark .tile-sub { color: #cbd5e1; }
+  </style>
+
+  <div class="tiles">
+    <!-- Compact Tile -->
+    <a href="wineapps/nextgen.html" class="tile">
+      <img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftesp2025%2Ftitlecard.webp?alt=media" alt="NextGen Data Science">
+      <div class="tile-body">
+        <h3 class="tile-title">Next-Gen Data Analysis with R and AI-Powered RAISINS</h3>
+        <p class="tile-sub">7-Day Online Training</p>
+      </div>
+    </a>
+  </div>
+</section>
+```

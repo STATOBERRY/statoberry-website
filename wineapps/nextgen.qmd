@@ -1,0 +1,118 @@
+---
+title: ""
+format:
+  html:
+    theme: none
+    toc: false
+    page-layout: full
+---
+
+```{=html}
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  #loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2rem;
+    z-index: 10;
+  }
+
+ #loader img {
+  width: 60vw;  /* or 70vw if you want it even bigger */
+  max-width: 600px; /* fallback max size */
+  height: auto;
+}
+
+  iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  /* FAB Styles */
+  .fab-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+
+  .fab-button {
+    background-color: #634360;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+
+  .fab-button:hover {
+    background-color: #452d45;
+  }
+
+  .fab-home {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    right: 5px;
+    background-color: #ecf0f1;
+    color: #634360;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+  }
+
+  .fab-home.show {
+    display: inline-block;
+  }
+</style>
+```
+
+::: {#loader}
+<img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Fwineloading.gif?alt=media" alt="Loading..."/>
+:::
+
+<iframe src="https://statoberry-wine.share.connect.posit.cloud/" onload="document.getElementById(&#39;loader&#39;).style.display=&#39;none&#39;;">
+
+</iframe>
+
+:::: fab-container
+::: {.fab-button onclick="toggleFAB()"}
+⬆️
+:::
+
+<a href="index.html" class="fab-home" id="fabHome" title="Go to Home">🏠 Home</a>
+::::
+
+```{=html}
+<script>
+  function toggleFAB() {
+    const homeBtn = document.getElementById("fabHome");
+    homeBtn.classList.toggle("show");
+  }
+</script>
+```
