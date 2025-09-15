@@ -78,25 +78,34 @@ toc: false
     }
   </style>
 
-  <div class="wine-card">
-    <div class="wine-header">
-    </div>
-    <div class="wine-body">
-      <p>
-        <strong>WINE (Web-based Interactive Network for Education)</strong> is a modern learning hub from 
-        <strong>Statoberry LLP</strong> in association with the 
-        <strong>Department of Agricultural Statistics, KAU</strong>.  
-        It blends training modules, exercises, and resources into one simple platform.
-        so you can <strong>revisit, practise, and master data science concepts anytime</strong>.
-      </p>
-      <br>
-      <p>
-        Designed for students, researchers, and professionals, WINE keeps learning 
-        <strong>interactive, engaging, and accessible</strong>.
-      </p>
-    </div>
+  <section id="wine" style="display:flex; align-items:center; gap:24px; margin:32px 0;">
+  <!-- Logo -->
+  <div>
+    <img src="https://firebasestorage.googleapis.com/v0/b/raisins-2025.firebasestorage.app/o/Training%2Fwinelogo.webp?alt=media" 
+         alt="WINE Logo" style="max-width:100px; height:auto;">
+  </div>
+
+  <!-- Text -->
+  <div>
+<h2 style="margin:0; font-size:1.75rem; font-weight:600; color:#6A0DAD;">
+  WINE
+</h2>
+    <strong>WINE (Web-based Interactive Network for Education)</strong> is a modern learning hub from 
+    <strong>Statoberry LLP</strong> in association with the 
+    <strong>Department of Agricultural Statistics, KAU</strong>.  
+    It blends training modules, exercises, and resources into one simple platform
+    so you can <strong>revisit, practise, and master data science concepts anytime</strong>.
+  </p>
+
+  <p>
+    Designed for students, researchers, and professionals, WINE keeps learning 
+    <strong>interactive, engaging, and accessible</strong>.
+  </p>
   </div>
 </section>
+
+
+
 
 
 <!-- ========== SINGLE TILE ========== -->
@@ -169,7 +178,7 @@ toc: false
       <img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftesp2025%2Ftitlecard.webp?alt=media" alt="NextGen Data Science">
       <div class="tile-body">
         <h3 class="tile-title">Next-Gen Data Analysis with R and AI-Powered RAISINS</h3>
-        <p class="tile-sub">7-Day Online Training</p>
+        <p class="tile-sub">September 2025</p>
       </div>
     </a>
   </div>
