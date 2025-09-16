@@ -93,20 +93,13 @@ format:
 ```
 
 ::: {#loader}
-<img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Fwineloading.gif?alt=media" alt="Loading..."/>
+<img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Fwineloader.gif?alt=media" alt="Loading..."/>
 :::
 
 <iframe src="https://statoberry-wine.share.connect.posit.cloud/" onload="document.getElementById(&#39;loader&#39;).style.display=&#39;none&#39;;">
 
 </iframe>
 
-:::: fab-container
-::: {.fab-button onclick="toggleFAB()"}
-⬆️
-:::
-
-<a href="index.html" class="fab-home" id="fabHome" title="Go to Home">🏠 Home</a>
-::::
 
 ```{=html}
 <script>
