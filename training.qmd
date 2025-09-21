@@ -218,12 +218,12 @@ toc: false
       <div class="badge">📅 October 20–26, 2025</div>
       <h3>Data Science Foundation</h3>
       <p class="description">
-        A 7-day online foundation course designed specifically for undergraduate students in agriculture. Build essential data science skills with daily interactive sessions.
+        A 7-day online foundation course designed specifically for undergraduate students. Build essential data science skills with daily interactive sessions.
       </p>
       <div class="training-details">
         <div class="detail-item"><span class="detail-icon">💻</span><span><strong>Mode:</strong> Online</span></div>
         <div class="detail-item"><span class="detail-icon">⏱️</span><span><strong>Timing:</strong> 7:00 PM – 8:30 PM IST daily</span></div>
-        <div class="detail-item"><span class="detail-icon">👥</span><span><strong>For:</strong> Agriculture undergraduates</span></div>
+        <div class="detail-item"><span class="detail-icon">👥</span><span><strong>For:</strong> Undergraduates, Students </span></div>
         <div class="detail-item"><span class="detail-icon">🏆</span><span><strong>Features:</strong> Certificate | Notes & Videos</span></div>
       </div>
       <a class="btn" href="training2.qmd" onclick="event.stopPropagation();">Register Now</a>

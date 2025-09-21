@@ -573,8 +573,8 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.12);
   <!-- Main Content -->
   <div id="mainContent">
   <div class="topbar">
-  <div class="topbar-title">Data Science Foundation</div>
-  <div class="topbar-subtitle">7-Day Online Training Programme</div>
+  <div class="topbar-title">Data Science Foundation in R</div>
+  <div class="topbar-subtitle">7-Day Bootcamp</div>
   <a class="register-btn" href="https://www.statoberry.com/payment/paymentpage2.html" target="_blank" rel="noopener">
   <span class="arrow">➔</span>
   Register Now
@@ -584,15 +584,15 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 <!-- Training Overview -->
 <section>
 <div class="section-title" id="overview" style="text-align:center; font-size:1.8rem; font-weight:700; color:#2d3e70; margin-bottom:25px;">
-Data Science Foundation: 7-Day Training
+Data Science Foundation: 7-Day Bootcamp
 </div>
 <div style="max-width:650px; margin:auto; background:#ffffff; padding:25px 30px; border-radius:18px; box-shadow:0 6px 20px rgba(0,0,0,0.08); font-size:1.1rem; color:#405080; line-height:1.7; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease;">
 <p style="margin-bottom:18px; font-size:1.15rem;">
 Build your foundation in <b>Data Science with R</b> and unlock the power of data-driven insights.
 </p>
-<p><b>Mode:</b> Online Training</p>
+<p><b>Mode:</b> Online</p>
 <p><b>Duration:</b> 7 Days (Daily 1.5 - 2 hrs sessions)</p>
-<p><b>For:</b> Undergraduates in Agriculture</p>
+<p><b>For:</b> Undergraduates, Students</p>
 <div style="margin-top:20px; font-weight:600; color:#2d3e70;">
 Certificate Provided &nbsp; | &nbsp; Hands-on Practice &nbsp; | &nbsp; Live Q&A
 </div>
