@@ -215,8 +215,8 @@ toc: false
     </div>
     <!-- Training 2 -->
     <div class="training-card" onclick="window.location.href='training2.html'" style="cursor: pointer;">
-      <div class="badge">📅 October 20–26, 2025</div>
-      <h3>Data Science Foundation</h3>
+      <div class="badge">📅 November 8-14, 2025</div>
+      <h3>Data Science Foundation in R</h3>
       <p class="description">
         A 7-day online foundation course designed specifically for undergraduate students. Build essential data science skills with daily interactive sessions.
       </p>

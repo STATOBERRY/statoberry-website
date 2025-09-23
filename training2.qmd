@@ -612,7 +612,7 @@ Certificate Provided &nbsp; | &nbsp; Hands-on Practice &nbsp; | &nbsp; Live Q&A
 <tr>
 <td>Day 1<br><span style="font-size:0.98rem">Introduction</span></td>
 <td><strong>Introduction to Data Science and R</strong><br>
-Overview of Data Science: What is data science? Role in agricultural research<br>
+Overview of Data Science: What is data science? Its applications across domains<br>
 Introduction to R: Installation, RStudio interface, R scripts vs console<br>
 Basic R operations: Arithmetic, objects, vectors<br>
 <em>Hands-on: Writing your first R code, simple data manipulations</em></td>
@@ -621,45 +621,45 @@ Basic R operations: Arithmetic, objects, vectors<br>
 <td>Day 2<br><span style="font-size:0.98rem">Data Structures</span></td>
 <td><strong>Data Structures in R</strong><br>
 Core structures: Vectors, matrices, data frames, lists, factors<br>
-Agriculture examples: Crop yield data, soil properties, weather data<br>
+Practical examples with student-friendly datasets<br>
 <em>Hands-on: Creating and managing data frames, indexing, subsetting</em></td>
 </tr>
 <tr>
 <td>Day 3<br><span style="font-size:0.98rem">Data Handling</span></td>
 <td><strong>Data Import, Cleaning, and Visualization</strong><br>
 Importing data: CSV, Excel, text files<br>
-Data wrangling: Missing values, renaming, recoding<br>
+Data wrangling: Handling missing values, renaming, recoding<br>
 Basic visualization: plot(), hist(), boxplot(), ggplot2 intro<br>
-<em>Hands-on: Cleaning an agriculture dataset (e.g., crop trials), plotting distributions</em></td>
+<em>Hands-on: Cleaning and exploring a real-world dataset</em></td>
 </tr>
 <tr>
 <td>Day 4<br><span style="font-size:0.98rem">EDA</span></td>
 <td><strong>Descriptive Statistics and Exploratory Data Analysis</strong><br>
 Descriptive statistics: Mean, median, variance, SD, skewness, kurtosis<br>
 EDA: Patterns, outliers, correlations<br>
-<em>Hands-on: Summary statistics with agriculture datasets (soil nutrients, rainfall)</em></td>
+<em>Hands-on: Summary statistics with sample datasets</em></td>
 </tr>
 <tr>
 <td>Day 5<br><span style="font-size:0.98rem">Statistics</span></td>
 <td><strong>Statistical Inference</strong><br>
 Concepts: Population vs sample, hypothesis testing, t-tests, chi-square<br>
 Confidence intervals: Meaning and interpretation<br>
-<em>Hands-on: Hypothesis testing on small agricultural experiments</em></td>
+<em>Hands-on: Hypothesis testing on real-life datasets</em></td>
 </tr>
 <tr>
 <td>Day 6<br><span style="font-size:0.98rem">Modeling</span></td>
 <td><strong>Regression and Prediction</strong><br>
 Simple linear regression: Concept, interpretation, model fitting in R<br>
 Multiple regression: Adding more predictors<br>
-<em>Hands-on: Predicting yield based on rainfall, fertilizer, and soil parameters</em><br>
+<em>Hands-on: Predicting outcomes based on multiple factors</em><br>
 Intro to model diagnostics: Residual plots, R²</td>
 </tr>
 <tr>
 <td>Day 7<br><span style="font-size:0.98rem">AI & Future</span></td>
-<td><strong>Introduction to AI & LLMs in Agriculture</strong><br>
+<td><strong>Introduction to AI & LLMs</strong><br>
 What are LLMs?: Basics of large language models, how they are trained<br>
-Applications in agriculture: Crop advisory chatbots, literature summarization, automating data cleaning<br>
-Demo: Using RAISINS-AI for research data analysis<br>
+Applications: Chatbots, literature summarization, automating data cleaning<br>
+Demo: Using AI tools for research and analysis<br>
 <em>Hands-on: Intro to ellmer and ragnar packages in R</em><br>
 <strong>Wrap-up:</strong> Review of course, Q&A, feedback</td>
 </tr>
@@ -688,11 +688,11 @@ Demo: Using RAISINS-AI for research data analysis<br>
   </div>
   <div class="benefit-card">
   <h4><i class="fas fa-trending-up"></i> Predictive Modeling</h4>
-  <p>Build regression models to predict agricultural outcomes like crop yield and understand model diagnostics.</p>
+  <p>Build regression models to predict outcomes and understand model diagnostics.</p>
   </div>
   <div class="benefit-card">
-  <h4><i class="fas fa-robot"></i> AI in Agriculture</h4>
-  <p>Explore the role of AI and large language models in modern agricultural research and data analysis.</p>
+  <h4><i class="fas fa-robot"></i> AI & Data Science</h4>
+  <p>Explore the role of AI and large language models in modern data science and analytics.</p>
   </div>
   </div>
   </section>
@@ -711,7 +711,7 @@ Demo: Using RAISINS-AI for research data analysis<br>
   </div>
   <div class="faq-item">
   <div class="faq-q">Will I get hands-on practice?</div>
-  <div class="faq-a">Yes! Each session includes practical exercises with real agricultural datasets.</div>
+  <div class="faq-a">Yes! Each session includes practical exercises with real-world datasets.</div>
   </div>
   <div class="faq-item">
   <div class="faq-q">Can I ask questions during the training?</div>
@@ -728,7 +728,7 @@ Demo: Using RAISINS-AI for research data analysis<br>
   </div>
   </section>
   </div>
-  
+
   <!-- Scripts -->
   <script>
   // FAQ expand/collapse
