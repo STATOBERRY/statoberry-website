@@ -1,3 +1,6 @@
 ---
-title: ""
+title: "Training Participants"
+subtitle: "Validated by Statoberry"
 ---
+
+## Next Gen Data Analysis using R and AI Powered RAISINS
