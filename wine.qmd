@@ -173,7 +173,7 @@ toc: false
   </style>
 
   <div class="tiles">
-    <!-- Compact Tile -->
+    <!-- Tile 1 -->
     <a href="wineapps/nextgen.html" class="tile">
       <img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftesp2025%2Ftitlecard.webp?alt=media" alt="NextGen Data Science">
       <div class="tile-body">
@@ -181,6 +181,16 @@ toc: false
         <p class="tile-sub">September 2025</p>
       </div>
     </a>
+
+    <!-- Tile 2 -->
+    <a href="wineapps/foundation.html" class="tile">
+      <img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftnov2025%2Fdatasciencefoundation.webp?alt=media" alt="Data Science Foundation">
+      <div class="tile-body">
+        <h3 class="tile-title">Data Science Foundation in R</h3>
+        <p class="tile-sub">November 2025</p>
+      </div>
+    </a>
   </div>
 </section>
+
 ```

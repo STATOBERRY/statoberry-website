@@ -96,7 +96,7 @@ format:
 <img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Fwineloader.gif?alt=media" alt="Loading..."/>
 :::
 
-<iframe src="https://statoberry-wine.share.connect.posit.cloud/" onload="document.getElementById(&#39;loader&#39;).style.display=&#39;none&#39;;">
+<iframe src="https://statoberry-wine-dsf.share.connect.posit.cloud/" onload="document.getElementById(&#39;loader&#39;).style.display=&#39;none&#39;;">
 
 </iframe>
 
