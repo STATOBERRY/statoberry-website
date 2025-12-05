@@ -174,7 +174,7 @@ toc: false
 
   <div class="tiles">
     <!-- Tile 1 -->
-    <a href="wineapps/nextgen.html" class="tile">
+    <a href="" class="tile">
       <img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftesp2025%2Ftitlecard.webp?alt=media" alt="NextGen Data Science">
       <div class="tile-body">
         <h3 class="tile-title">Next-Gen Data Analysis with R and AI-Powered RAISINS</h3>
@@ -190,6 +190,16 @@ toc: false
         <p class="tile-sub">November 2025</p>
       </div>
     </a>
+    
+    <!-- Tile 3 -->
+    <a href="wineapps/nextgen.html" class="tile">
+      <img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftdec2025%2Fnextgen.webp?alt=media">
+      <div class="tile-body">
+        <h3 class="tile-title">Next-Gen Data Analysis with R and AI-Powered RAISINS</h3>
+        <p class="tile-sub">December 2025</p>
+      </div>
+    </a>
+    
   </div>
 </section>
 
