@@ -651,7 +651,7 @@ Principal Component Analysis (PCA): concepts and applications<br>
 Cluster analysis and factor analysis: grouping and latent variable discovery</td>
 </tr>
 <tr>
-<td>Day 5<br><span style="font-size:0.98rem">Relationships</span></td>
+<td>Day 5<br><span style="font-size:0.98rem">Advanced Designs</span></td>
 <td><strong>Advanced Designs in Agricultural Research</strong><br>
 Factorial experiments: concepts, layout, and interpretation<br>
 Split-plot and strip-plot designs: when and how to use them<br>
