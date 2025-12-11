@@ -32,8 +32,8 @@ website:
         href: index.qmd#services
       - text: Publishing
         href: papaya.qmd
-      - text: Trainings
-        href: training.qmd
+      # - text: Trainings
+      #   href: training.qmd
       - text: WINE
         href: wine.qmd
     search: true

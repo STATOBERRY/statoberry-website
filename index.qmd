@@ -24,44 +24,44 @@ toc: false
 </div>
 ```
 
-```{=html}
-<!-- ========== SECTION: UPCOMING TRAINING ========== -->
-<section id="training" style="margin:40px 0;">
-  <style>
-    #training .banner{
-      border-radius: 20px;
-      padding: 32px;
-      background: linear-gradient(135deg,#f0ddef 0%,#ffffff 100%);
-      box-shadow: 0 12px 28px rgba(0,0,0,.08);
-      text-align: center;
-    }
-    #training h2{ margin:0 0 10px; font-size:1.6rem; font-weight:700; color:#634360; }
-    #training p{ margin:0 0 16px; font-size:1rem; color:#374151; }
-    #training .date{
-      display:inline-block; padding:6px 12px; border-radius:999px;
-      background:#634360; color:#fff; font-weight:600; margin-bottom:16px;
-    }
-    #training .btn{
-      display:inline-block; padding:12px 20px; border-radius:999px;
-      background:#634360; color:#fff; font-weight:600; text-decoration:none;
-      box-shadow:0 8px 18px rgba(99,67,96,.25);
-    }
-    #training .btn:hover{ filter:brightness(0.95); }
-    /* dark mode */
-    .quarto-dark #training .banner{ background:#14161a; color:#e7e8ea; }
-    .quarto-dark #training p{ color:#c9c9c9; }
-  </style>
+<!-- ```{=html} -->
+<!-- ========== SECTION: UPCOMING TRAINING ==========  -->
+<!-- <section id="training" style="margin:40px 0;"> -->
+<!--   <style> -->
+<!--     #training .banner{ -->
+<!--       border-radius: 20px; -->
+<!--       padding: 32px; -->
+<!--       background: linear-gradient(135deg,#f0ddef 0%,#ffffff 100%); -->
+<!--       box-shadow: 0 12px 28px rgba(0,0,0,.08); -->
+<!--       text-align: center; -->
+<!--     } -->
+<!--     #training h2{ margin:0 0 10px; font-size:1.6rem; font-weight:700; color:#634360; } -->
+<!--     #training p{ margin:0 0 16px; font-size:1rem; color:#374151; } -->
+<!--     #training .date{ -->
+<!--       display:inline-block; padding:6px 12px; border-radius:999px; -->
+<!--       background:#634360; color:#fff; font-weight:600; margin-bottom:16px; -->
+<!--     } -->
+<!--     #training .btn{ -->
+<!--       display:inline-block; padding:12px 20px; border-radius:999px; -->
+<!--       background:#634360; color:#fff; font-weight:600; text-decoration:none; -->
+<!--       box-shadow:0 8px 18px rgba(99,67,96,.25); -->
+<!--     } -->
+<!--     #training .btn:hover{ filter:brightness(0.95); } -->
+<!--     /* dark mode */ -->
+<!--     .quarto-dark #training .banner{ background:#14161a; color:#e7e8ea; } -->
+<!--     .quarto-dark #training p{ color:#c9c9c9; } -->
+<!--   </style> -->
 
-  <div class="banner">
-    <div class="date">📅 December 5-11, 2025</div>
-    <h2>Upcoming Training: Next-Gen Data Analysis with R and AI-Powered RAISINS</h2>
-    <p>
-      Comprehensive training in R Programming (Basics to Advanced) with introduction to AI-powered RAISINS no-code platform.
-    </p>
-    <a class="btn" href="/training.html">Register Now</a>
-  </div>
-</section>
-```
+<!--   <div class="banner"> -->
+<!--     <div class="date">📅 December 5-11, 2025</div> -->
+<!--     <h2>Upcoming Training: Next-Gen Data Analysis with R and AI-Powered RAISINS</h2> -->
+<!--     <p> -->
+<!--       Comprehensive training in R Programming (Basics to Advanced) with introduction to AI-powered RAISINS no-code platform. -->
+<!--     </p> -->
+<!--     <a class="btn" href="/training.html">Register Now</a> -->
+<!--   </div> -->
+<!-- </section> -->
+<!-- ``` -->
 
 ## Solutions {#product .unnumbered}
 
