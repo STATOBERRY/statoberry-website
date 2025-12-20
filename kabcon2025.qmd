@@ -1,0 +1,9 @@
+---
+title: "Participants & Abstracts"
+subtitle: "Kerala Agrobiodiversity Conference 2025"
+format:
+  html:
+    theme: cosmo
+    toc: false
+    page-layout: full
+---
