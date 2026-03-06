@@ -146,222 +146,327 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">WINE Learning Platform</h1></header>
 
 
 
 
-<section id="wine-intro" style="margin: 48px 0;">
-  <style>
-   .wine-card {
-      max-width: 880px;
-      margin: 0 auto;
-      border-radius: 22px;
-      overflow: hidden;
-      background: linear-gradient(135deg, #fdfbfb 0%, #f0ddef 100%);
-      box-shadow: 0 10px 28px rgba(0,0,0,.08);
-      transition: transform .28s ease, box-shadow .28s ease;
-      text-align: center;
-    }
-    .wine-card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 16px 36px rgba(0,0,0,.15);
-    }
-    .wine-header {
-      padding: 1.8rem 1.5rem 1rem;
-    }
-    .wine-header h1 {
-      margin: 0;
-      font-size: 1.9rem;
-      font-weight: 700;
-      color: #472c44;
-      letter-spacing: .5px;
-    }
-    .wine-body {
-      padding: 0 2rem 2.2rem;
-    }
-    .wine-body p {
-      margin: 0 auto 1.1rem;
-      max-width: 64ch;
-      font-size: 1.05rem;
-      line-height: 1.7;
-      color: #374151;
-    }
-    .wine-body strong {
-      color: #634360; /* plum accent */
-    }
-    .wine-body em {
-      color: #4461e6; /* blue accent */
-    }
-    .wine-btn {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 12px 26px;
-      border-radius: 999px;
-      background: #634360;
-      color: #fff;
-      font-weight: 600;
-      text-decoration: none;
-      box-shadow: 0 8px 20px rgba(99,67,96,.25);
-      transition: all 0.3s ease;
-    }
-    .wine-btn:hover {
-      background: #472c44;
-      transform: translateY(-2px);
-    }
-    /* Dark mode */
-    .quarto-dark .wine-card {
-      background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
-    }
-    .quarto-dark .wine-header h1 {
-      color: #f3f4f6;
-    }
-    .quarto-dark .wine-body p {
-      color: #d1d5db;
-    }
-    .quarto-dark .wine-body strong {
-      color: #e5c2ec;
-    }
-  </style>
+<section id="wine-intro">
 
-  <section id="wine" style="display:flex; align-items:center; gap:24px; margin:32px 0;">
-  <!-- Logo -->
-  <div>
-    <img src="https://firebasestorage.googleapis.com/v0/b/raisins-2025.firebasestorage.app/o/Training%2Fwinelogo.webp?alt=media" alt="WINE Logo" style="max-width:100px; height:auto;">
-  </div>
+<style>
 
-  <!-- Text -->
-  <div>
-<h2 style="margin:0; font-size:1.75rem; font-weight:600; color:#6A0DAD;" class="anchored">
-  WINE
-</h2>
-    <strong>WINE (Web-based Interactive Network for Education)</strong> is a modern learning hub from 
-    <strong>Statoberry LLP</strong> in association with the 
-    <strong>Department of Agricultural Statistics, KAU</strong>.  
-    It blends training modules, exercises, and resources into one simple platform
-    so you can <strong>revisit, practise, and master data science concepts anytime</strong>.
-  <p></p>
+/* ---------- GLOBAL ---------- */
 
-  <p>
-    Designed for students, researchers, and professionals, WINE keeps learning 
-    <strong>interactive, engaging, and accessible</strong>.
-  </p>
-  </div>
+#wine-intro{
+  margin:50px auto;
+  max-width:1100px;
+}
+
+
+/* ---------- HERO SECTION ---------- */
+
+.wine-hero{
+  display:flex;
+  align-items:center;
+  gap:28px;
+  padding:28px;
+  border-radius:20px;
+
+  background:linear-gradient(135deg,#ffffff,#f5ecf7);
+
+  box-shadow:0 10px 28px rgba(0,0,0,.08);
+  transition:.3s;
+}
+
+.wine-hero:hover{
+  transform:translateY(-4px);
+  box-shadow:0 18px 40px rgba(0,0,0,.15);
+}
+
+.wine-logo img{
+  width:110px;
+}
+
+.wine-text h1{
+  margin:0;
+  font-size:2rem;
+  font-weight:700;
+  color:#5A0F4D;
+}
+
+.wine-text p{
+  font-size:1.05rem;
+  line-height:1.7;
+  margin-top:8px;
+  color:#3E0736;
+}
+
+.wine-text strong{
+  color:#7B2C6F;
+}
+
+
+/* ---------- TILE GRID ---------- */
+
+.tiles{
+  margin-top:50px;
+
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:28px;
+}
+
+
+/* ---------- TILE CARD ---------- */
+
+.tile{
+  border-radius:16px;
+  overflow:hidden;
+  text-decoration:none;
+  background:#fff;
+
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+  transition:.35s;
+  position:relative;
+}
+
+.tile:hover{
+  transform:translateY(-8px);
+  box-shadow:0 20px 40px rgba(0,0,0,.18);
+}
+
+
+/* ---------- TILE IMAGE ---------- */
+
+.tile img{
+  width:100%;
+  height:160px;
+  object-fit:cover;
+
+  transition:.35s;
+}
+
+.tile:hover img{
+  transform:scale(1.08);
+}
+
+
+/* ---------- TILE BODY ---------- */
+
+.tile-body{
+  padding:18px;
+  text-align:center;
+}
+
+.tile-title{
+  font-size:1.05rem;
+  font-weight:700;
+  color:#2d2f36;
+  margin-bottom:6px;
+}
+
+.tile-sub{
+  font-size:.85rem;
+  color:#6b7280;
+}
+
+
+/* ---------- BADGES ---------- */
+
+.tile.live::before{
+  content:"Live";
+  position:absolute;
+  top:12px;
+  left:12px;
+
+  background:#5A0F4D;
+  color:#fff;
+
+  font-size:11px;
+  padding:5px 10px;
+  border-radius:20px;
+}
+
+.tile.completed{
+  opacity:.75;
+}
+
+.tile.completed::before{
+  content:"Completed";
+  position:absolute;
+  top:12px;
+  left:12px;
+
+  background:#9ca3af;
+  color:white;
+
+  font-size:11px;
+  padding:5px 10px;
+  border-radius:20px;
+}
+
+
+/* ---------- DARK MODE ---------- */
+
+.quarto-dark .wine-hero{
+  background:linear-gradient(135deg,#1f2937,#111827);
+}
+
+.quarto-dark .wine-text p{
+  color:#d1d5db;
+}
+
+.quarto-dark .tile{
+  background:#1f2937;
+}
+
+.quarto-dark .tile-title{
+  color:#f3f4f6;
+}
+
+.quarto-dark .tile-sub{
+  color:#9ca3af;
+}
+
+</style>
+
+
+<!-- HERO -->
+
+<div class="wine-hero">
+
+<div class="wine-logo">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/raisins-2025.firebasestorage.app/o/Training%2Fwinelogo.webp?alt=media">
+
+</div>
+
+<div class="wine-text">
+
+
+
+<p>
+<strong>WINE (Web-based Interactive Network for Education)</strong> is a modern
+learning hub developed by <strong>Statoberry LLP</strong> in association with the
+<strong>Department of Agricultural Statistics, KAU</strong>.
+</p>
+
+<p>
+It integrates training modules, exercises, lecture materials and interactive
+resources so that learners can <strong>revisit, practise, and master data science concepts anytime</strong>.
+</p>
+
+<p>
+Designed for <strong>students, researchers, and professionals</strong>, WINE makes
+learning <em>interactive, engaging, and accessible</em>.
+</p>
+
+</div>
+
+</div>
+
+
+
+<!-- TRAINING TILES -->
+
+<div class="tiles">
+
+
+<!-- ACTIVE TRAINING -->
+
+<a href="./wineapps/multivariate.html" class="tile live">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftmarch_2026%2Fdata_banner.webp?alt=media">
+
+<div class="tile-body">
+
+<h3 class="tile-title anchored">
+Multivariate Techniques in Agriculture
+</h3>
+
+<p class="tile-sub">
+March 2026
+</p>
+
+</div>
+
+</a>
+
+
+
+<!-- COMPLETED -->
+
+<a href="#" class="tile completed">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftdec2025%2Fnextgen.webp?alt=media">
+
+<div class="tile-body">
+
+<h3 class="tile-title anchored">
+Next-Gen Data Analysis with R and AI-Powered RAISINS
+</h3>
+
+<p class="tile-sub">
+December 2025
+</p>
+
+</div>
+
+</a>
+
+
+
+<!-- COMPLETED -->
+
+<a href="#" class="tile completed">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftnov2025%2Fdatasciencefoundation.webp?alt=media">
+
+<div class="tile-body">
+
+<h3 class="tile-title anchored">
+Data Science Foundation in R
+</h3>
+
+<p class="tile-sub">
+November 2025
+</p>
+
+</div>
+
+</a>
+
+
+
+<!-- COMPLETED -->
+
+<a href="#" class="tile completed">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftesp2025%2Ftitlecard.webp?alt=media">
+
+<div class="tile-body">
+
+<h3 class="tile-title anchored">
+Next-Gen Data Analysis with R and AI-Powered RAISINS
+</h3>
+
+<p class="tile-sub">
+September 2025
+</p>
+
+</div>
+
+</a>
+
+
+</div>
+
 </section>
 
 
 
-
-
-<!-- ========== SINGLE TILE ========== -->
-<section id="wine-tiles" style="margin: 48px 0;">
-  <style>
-    #wine-tiles {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-    .tiles {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 20px;
-      justify-items: center;
-    }
-    .tile {
-      display: flex;
-      flex-direction: column;
-      width: 240px;
-      border-radius: 16px;
-      overflow: hidden;
-      background: #fff;
-      box-shadow: 0 4px 12px rgba(0,0,0,.08);
-      text-decoration: none;
-      transition: transform .25s ease, box-shadow .25s ease;
-    }
-    .tile:hover {
-      transform: translateY(-6px) scale(1.03);
-      box-shadow: 0 10px 28px rgba(0,0,0,.18);
-    }
-    .tile img {
-      width: 100%;
-      height: 140px;
-      object-fit: cover;
-      display: block;
-      transition: transform .35s ease;
-    }
-    .tile:hover img {
-      transform: scale(1.05);
-    }
-    .tile-body {
-      padding: 12px 14px 16px;
-      text-align: center;
-    }
-    .tile-title {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #2d2f36;
-      margin: 0 0 6px;
-    }
-    .tile-sub {
-      font-size: .85rem;
-      color: #555;
-      margin: 0;
-      line-height: 1.4;
-    }
-    /* Dark mode */
-    .quarto-dark .tile {
-      background: #1f2937;
-      box-shadow: 0 6px 18px rgba(0,0,0,.6);
-    }
-    .quarto-dark .tile-title { color: #f3f4f6; }
-    .quarto-dark .tile-sub { color: #cbd5e1; }
-  </style>
-
-  <div class="tiles">
-    <!-- Tile 1 -->
-       <a href="https://statoberry-wine-mar.share.connect.posit.cloud/" class="tile">
-      <img src="www/data_banner_march.webp">
-      <div class="tile-body">
-        <h3 class="tile-title anchored">Multivariate Techniques in Agriculture</h3>
-        <p class="tile-sub">march 2026</p>
-      </div>
-    </a>
-    
-
-    <!-- Tile 1 -->
-       <a href="wineapps/nextgen.html" class="tile">
-      <img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftdec2025%2Fnextgen.webp?alt=media">
-      <div class="tile-body">
-        <h3 class="tile-title anchored">Next-Gen Data Analysis with R and AI-Powered RAISINS</h3>
-        <p class="tile-sub">December 2025</p>
-      </div>
-    </a>
-
-    <!-- Tile 2 -->
-    <a href="wineapps/foundation.html" class="tile">
-      <img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftnov2025%2Fdatasciencefoundation.webp?alt=media" alt="Data Science Foundation">
-      <div class="tile-body">
-        <h3 class="tile-title anchored">Data Science Foundation in R</h3>
-        <p class="tile-sub">November 2025</p>
-      </div>
-    </a>
-    
-    <!-- Tile 3 -->
-     <a href="" class="tile">
-      <img src="https://firebasestorage.googleapis.com/v0/b/fig-1-41cec.firebasestorage.app/o/WINE%2Ftesp2025%2Ftitlecard.webp?alt=media" alt="NextGen Data Science">
-      <div class="tile-body">
-        <h3 class="tile-title anchored">Next-Gen Data Analysis with R and AI-Powered RAISINS</h3>
-        <p class="tile-sub">September 2025</p>
-      </div>
-    </a>
-    
-  </div>
-</section>
-
-
-
-
-</section></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
